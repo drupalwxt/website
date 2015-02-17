@@ -1,0 +1,21 @@
+BaseUrl: "http://drupalwxt.github.io"
+ContentDir: "content"
+LayoutDir: "layouts"
+PublishDir: "public"
+BuildDrafts: true
+LanguageCode: "en-us"
+Title: "Drupal WxT"
+Params:
+  Author: "William Hearn"
+  DateForm: "Mon Jan 2 15:04:05 2006"
+  GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
+  Github: "drupalwxt/drupalwxt"
+  ShowRelatedPost: True
+  Slogan: "DrupalWxT Documentation Site"
+  Disqus: "XXXX-XXXX-XXXX"
+  SyntaxHighlightTheme: "monokai.min.css"
+Indexes:
+  tag: "tags"
+permalinks:
+  post: /blog/:year/:month/:day/:title/
+MetadataFormat: "yaml"

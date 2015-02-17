@@ -1,0 +1,3 @@
+[submodule "themes/wxt"]
+	path = themes/wxt
+	url = https://github.com/drupalwxt/wet-boew-hugo.git

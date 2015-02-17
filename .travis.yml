@@ -1,0 +1,22 @@
+language: go
+go:
+  - 1.3
+before_install:
+  - cd ..
+  - git clone https://github.com/spf13/hugo.git
+  - cd hugo
+  - go get
+  - cd ../website
+install:
+  - sudo apt-get install nodejs npm
+  - npm install -qg bower grunt-cli
+  - git config --global user.email "${GIT_EMAIL}"
+  - git config --global user.name "${GIT_NAME}"
+script:
+  - cd themes/wxt && bower install && cd ../..
+  - git remote set-url origin "https://${GH_TOKEN}@github.com/drupalwxt/drupalwxt.github.io.git"
+  - git submodule add -f "https://${GH_TOKEN}@github.com/drupalwxt/drupalwxt.github.io.git" public
+  - ./deploy.sh "Initial commit"
+env:
+  global:
+    secure: X+RjWsvRaamhOqglnS5pGNq9SaXOrlimI37U/Qw+hJc+d1RVEmtaqWi6pkw0RG1OaMk9fsxTOb/1WS8d/2AbhKvqS/fNl33OK5XWJu0AWcUdJ1hcU5cU1YVzXwxeFHiOZt/l/ROLwNMzOdJhbEsgF/0sabFEiEMxyqIdlxK6CUo=
