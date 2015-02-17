@@ -14,7 +14,7 @@ Our new documentation site for Drupal WxT is now being powered by Hugo.
 
 Of course we could be using Drupal itself to power our documentation site but that would be overkill for such simple requirements this site requires.
 
-Remember we should always be practicing the methodology of the choosing the right tool for the right job!
+Remember we should always be practicing the methodology of choosing the right tool for the right job!
 
 ## What is Hugo
 
