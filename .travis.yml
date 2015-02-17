@@ -19,4 +19,4 @@ script:
   - ./deploy.sh "Initial commit"
 env:
   global:
-    secure: AsKIBSs36ZfNEXYNBUb1Ia6vAbsuYgj9XY4aUK7nS7E5w0uIIUZvtFJOSQM3pDbEaTIKSXCYkPapOR6R2O3Y6da6rc3U83R3EFy0VLCwkZaTdow6EnNFX7zHGKfOcW+95IX4pBOoSw7Snyne3TaFxTuBK12TtzozrBueNdgw/uo=
+    secure: D43xoqFW2AusC4f3R1A/1ThQprllcKKY9aSNkG9/i6Ds1e/jEgiqKSxZ86NlwP6hAYqKe1dGnpbucOBUgnD9kvdIIPlnrA9j+RGpkeu8n9QIIufHi79TSeklz+zoh9UOJTcKKfBVI6yrlpqr4RN4KdNW146viu3c/ywHmjMIJcw=
