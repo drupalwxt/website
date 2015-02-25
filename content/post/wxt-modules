@@ -1,0 +1,146 @@
++++
+draft = true
+title = "Web Experience Toolkit Custom Modules List"
+description="List of all  Web Experience Toolkit custom modules with descriptions and links to their respective Drupal project pages."
+language = "en"
+tags = [
+    "post",
+    "wxt",
+]
+date = "2015-02-25T11:26:00-05:00"
++++
+
+## Web Experience Toolkit Custom Modules List (Features)
+
+[WetKit Admin][wetkitadmin]
+Administrative dashboard and related editing interfaces.
+
+[WetKit Bean][wetkitbean]
+Default Bean implementations for use with Drupal WxT.
+
+[WetKit Breadcrumbs][wetkitbreadcrumbs]
+Installs and configures breadcrumbs for the Web Experience Toolkit
+
+[WetKit Core][wetkitcore]
+Installs and configures the core modules and settings needed for the WetKit Installation Profile.
+
+[WetKit Demo][wetkitdemo]
+Demo content and functionality to help show Drupal WxT functionality.
+
+[WetKit Deployment][wetkitdeployment]
+Deployment for WetKit assisting in a content staging to production workflow.
+
+[WetKit Deployment Destination][wetkitdeploymentdestination]
+Contains configuration for demonstrating the deployment on a destination site.
+
+[WetKit Deployment Environment][wetkitdeploymentenvironment]
+Server Environment Deployment Configuration for Drupal WxT.
+
+[WetKit Deployment Source][wetkitdeploymentsource]
+Contains configuration for demonstrating the Deployment on a source site.
+
+[WetKit Images][wetkitimages]
+Provides scaling and cropping to images and other functionality.
+
+[WetKit Language][wetkitlanguage]
+Helps configure a multilingual site for Drupal WxT.
+
+[WetKit Media][wetkitmedia]
+Improves the management of media files in Drupal WxT.
+
+[WetKit Menu][wetkitmenu]
+Specify a mini panel to appear when a user hovers over a menu item.
+
+[WetKit Metatag][wetkitmetatag]
+Installs and configures default metatags that help to extend the SEO of the site.
+
+[WetKit Migration][wetkitmigration]
+Migrates various content into Drupal such as the WET-BOEW Documentation
+
+[WetKit Migrate Content Types][wetkitmigratecontenttypes]
+WetKit Migrate Content Types
+This features contains the custom content types and other configuration used by the WetKit Migrate Module
+
+[WetKit Organic Groups][wetkitorganicgroups]
+Integrate with the Organic Groups module.
+
+[WetKit Pages][wetkitpages]
+Provides a basic page, suitable for Panels Layouts.
+
+[WetKit Search][wetkitsearch]
+Search configuration and integration with Drupal WxT.
+
+[WetKit Search API][wetkitsearchapi]
+Indexes and searches site content, Solr or otherwise.
+
+[WetKit Splash][wetkitsplash]
+Splash configuration
+
+[WetKit Theme][wetkittheme]
+Helps with the overall theming configuration.
+
+[WetKit Users][wetkitusers]
+Maintains user accounts and user workflows.
+
+[WetKit Webform][wetkitwebform]
+Default Webform implementations for use with Drupal WxT.
+
+[WetKit WET-BOEW][wetkitwetboew]
+Installs and configures settings related to the WET-BOEW JS Library
+
+[WetKit Widgets][wetkitwidgets]
+Creates widgets for Drupal WxT.
+
+[WetKit WYSIWYG][wetkitwysiwyg]
+Integrates a WYSIWYG workflow for Drupal WxT.
+
+## Web Experience Toolkit Custom Modules List (not included in Distro)
+
+[WetKit Git][wetkitgit]
+Git Dev Tools for Drupal WEM.
+
+[WetKit Varnish][wetkitvarnish]
+Varnish configuration to assist in serving cached content.
+
+[WetKit Accessibility][wetkitaccessibility]
+Accessibility for Drupal WEM leveraging the Accessibility module.
+
+[WetKit Project][wetkitproject]
+Provides some configuration only for use in the WetKit automated tests. 
+
+[WetKit Test][wetkittest]
+Provides some configuration only for use in the WetKit automated tests. 
+
+<!-- Links Referenced -->
+
+[wetkitadmin]:         http://www.drupal.org/project/wetkit_admin
+[wetkitbean]:         http://www.drupal.org/project/wetkit_bean
+[wetkitbreadcrumbs]:         http://www.drupal.org/project/wetkit_breadcrumbs
+[wetkitcore]:         http://www.drupal.org/project/wetkit_core
+[wetkitdemo]:         http://www.drupal.org/project/wetkit_demo
+[wetkitdeployment]:         http://www.drupal.org/project/wetkit_deployment
+[wetkitdeploymentdestination]:         http://www.drupal.org/project/wetkit_deployment
+[wetkitdeploymentenvironment]:         http://www.drupal.org/project/wetkit_deployment
+[wetkitdeploymentsource]:         http://www.drupal.org/project/wetkit_deployment
+[wetkitimages]:         http://www.drupal.org/project/wetkit_images
+[wetkitlanguage]:         http://www.drupal.org/project/wetkit_language
+[wetkitmedia]:         http://www.drupal.org/project/wetkit_media
+[wetkitmenu]:         http://www.drupal.org/project/wetkit_menu
+[wetkitmetatag]:         http://www.drupal.org/project/wetkit_metatag
+[wetkitmigration]:         http://www.drupal.org/project/wetkit_migrate
+[wetkitmigratecontenttypes]:         http://www.drupal.org/project/wetkit_migrate
+[wetkitorganicgroups]:         http://www.drupal.org/project/wetkit_og
+[wetkitpages]:         http://www.drupal.org/project/wetkit_pages
+[wetkitsearch]:         http://www.drupal.org/project/wetkit_search
+[wetkitsplash]:         http://www.drupal.org/project/wetkit_splash
+[wetkittheme]:         http://www.drupal.org/project/wetkit_theme
+[wetkitusers]:         http://www.drupal.org/project/wetkit_users
+[wetkitwebform]:         http://www.drupal.org/project/wetkit_webform
+[wetkitwetboew]:         http://www.drupal.org/project/wetkit_wetboew
+[wetkitwidgets]:         http://www.drupal.org/project/wetkit_widgets
+[wetkitwysiwyg]:         http://www.drupal.org/project/wetkit_wysiwyg
+[wetkitgit]:         http://www.drupal.org/project/wetkit_git
+[wetkitvarnish]:         http://www.drupal.org/project/wetkit_varnish
+[wetkitaccessibility]:         http://www.drupal.org/project/wetkit_accessibility
+[wetkitproject:         http://www.drupal.org/project/wetkit_project
+[wetkittest]:         http://www.drupal.org/project/wetkit_test
