@@ -1,0 +1,35 @@
++++
+draft = true
+title = "WYSIWYG Buttons"
+description="Descriptions and details of the WYSIWYG buttons."
+language = "en"
+tags = [
+    "post",
+    "wxt",
+]
+date = "2015-01-13T13:10:52-05:00"
++++
+
+|  Buttons |  HTML | Description  |
+|:-:|:-:|---|
+| Bold  | ```<strong>bolded text</strong>```  |  Important text should be denoted with the ```<strong>``` tag, however the document headings and titles should be denoted with the ```<h2>``` to ```<h6>``` tags. |
+| Italics | ```<em>italicized text</em>```  |  The ```<em>``` tag is a phrase tag that should be used to emphasize text such as document titles, laws or sources being referred to or quoted. |
+| Underline | ```<u>Underlined text</u>```  |  Underlining text should usually be done via CSS instead of this button. This ```<u>``` element is used rarely, only to represent text that should be stylistically different from normal text, such as misspelled words or proper nouns in Chinese.|
+| Superscript | ```x<sub>2</sub>```  |  Subscript will be applied to the number you have highlighted. |
+| Bullet List | ```<ul><li>list item 1</li><li>list item 2</li><li>list item 3</li></ul>```  |  Highlight multiple lines and click this button to apply an unordered list that creates bulleted lines. Nested sub-lists can be created by adding ```<ul>``` or ```<ol>``` lists inside existing ```<li>list items</li>```.|
+| Number List | ```<ol><li>list item 1</li><li>list item 2</li><li>list item 3</li></ol>```  |  Highlight multiple lines and click this button to apply an ordered list that creates numbered lines. Nested sub-lists can be created by adding ```<ul>``` or ```<ol>``` lists inside existing ```<li>```list items```</li>```.|
+| Block Quote | ```<blockquote><p>Sentence or paragraph quote.</p></blockquote>```  |  Blockquote should only be used for actual quotations. |
+| Undo / Redo |  | Undo / Redo buttons will step through the list of changes in the current edit, and are disabled when not applicable. |
+| Cut / Copy / Paste |   |  Cut / Copy / Paste options work in a predictable manner, and are disabled when not applicable. Highlight something to be able to Cut or Copy, and then Paste will be available.  Note: When pasting in content that was copied from elsewhere do not use this Paste button, and do not CTRL-V. Instead use the “Paste as plain text” button or the “Paste from Word” buttons.|
+| Paste HTML |   |  When pasting in text copied from a Word document or other external sources, always use the “Paste as plain text” button or the “Paste from Word” button. This allows the WYSIWYG to perform some HTML clean up to reduce the amount of coding fixes required after pasting. |
+| Hyperlinks - Linkit |   |  1.	Create a new hyperlink by highlighting the text to be linked, then click the button or right-click the selected text and choose Link to Content.  2.	Edit an existing link by right-clicking the link and choosing Link to Content  |
+| View HTML Source Code |   |  Switch from the WYSIWYG editor mode to the HTML source code editor. This offers the simplest way to clean up the HTML code and simplify the formatting of the page content. |
+| Anchor Links | ```<a id="anchor_1" name="anchor_1"></a>```  |   1.	Put the cursor where the anchor should be inserted.  2.	Click the button and type in a name without # sign.  3.	Anchor name must start with a letter.  4. Edit the resulting HTML to incorporate the anchor ID and Name into the nearest HTML element instead of leaving this <a> tag as the anchor target.|
+| Horizontal Line |  ```<hr>```  |  Adds a line across the width of the page. |
+| Create Table |   |  Quickly build a basic table by choosing any number of columns and rows. Some HTML clean-up will be needed to make tables validate. 1)	Tables must have a descriptive caption.2)	Tables must be structured using headers. a.	Simple tables can use the scope=col or scope=row offered by the WYSIWYG. b.	Complex tables will need to replace scope with IDs and Headers on individual cells. |
+| Headings | ```<h2>Topic Heading</h2>  <h3>Sub-topic Heading</h3> <h4>Sub-topic Category</h4> <h5>Sub-topic Sub-Category </h5>``` |  1.	Structure the page content using nested Headings that will delineate the sections and sub-sections. 2.	```<h1>``` is already used for the page title, no other H1 headings should be added. Additional content headings should only be ```<h2>``` to ```<h6>```. 3.	Use proper nesting, ```<h2>``` can have child ```<h3>``` headings, then either use ```<h4>s``` for sub-sections of the ```<h3>``` or return to ```<h2>``` level. Do not jump heading levels from ```<h2>``` to ```<h4>``` or from ```<h3>``` to ```<h5>```. |
+| Styles | ```<div class="alert alert-info"> <div class="alert alert-success"> <div class="alert alert-warning"> <div class="alert alert-danger"> <span class="badge">```  |  Some built-in styles are available from the drop-list button Styles. 1.	First highlight the text that is to be modified and then choose the Style to wrap the pre-selected text with. 2.	Use the alert boxes for appropriate content, blue for information boxes, yellow for warnings, etc. 3.	CSS classes can be combined, or moved onto other HTML elements if appropriate. |
+| Spellchek |  |  Spellcheck as you type, great for avoiding those embarrassing typos. Includes options :	1.	Ignore All-Caps Words 2.	Ignore Domain Names 3.	Ignore Words with Mixed Case 4.	Ignore Words with Numbers |
+| Add Media |  |  Access the Media Library to re-use media files or upload new files. |
+
+
