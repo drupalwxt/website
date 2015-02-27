@@ -88,13 +88,13 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
         <tr>
             <td><a href="twitter/twitter-en.html">Twitter embedded timeline</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/plugins-en.html">Plugins</a></td>
-            <td>Supported natively in the theme with standard markup as well as with a Custom Bean Twitter Bean for an improved workflow.</td>
+            <td>Supported natively in the theme with standard markup as well as with a Custom Twitter Bean for an improved workflow.</td>
             <td>twitter</td>
         </tr>
         <tr>
             <td><a href="zebra/zebra-en.html">Zebra striping</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/plugins-en.html">Plugins</a></td>
-            <td>Supported natively in the theme with standard markup and default templates. Various contrib such as Views can use this by simply adding a wb-zabra class.</td>
+            <td>Supported natively in the theme with standard markup and default templates. Various contrib modules such as Views can employ this by simply adding a <i>wb-zebra</i> class.</td>
             <td>zebra</td>
         </tr>
     </tbody>
