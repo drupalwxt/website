@@ -86,7 +86,7 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
             <td>archived</td>
         </tr>
         <tr>
-            <td><a href="twitter/twitter-en.html">Twitter embedded timeline</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/demos/twitter/twitter-en.html">Twitter embedded timeline</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/plugins-en.html">Plugins</a></td>
             <td>Supported natively in the theme with standard markup as well as with a Custom Bean Twitter Bean for an improved workflow.</td>
             <td>twitter</td>
