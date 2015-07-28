@@ -26,10 +26,13 @@ Varnish is also a software load balancer. Varnish uses round-robin balancing to 
 
 ## Default VCL
 
-An example of a best practice default.vcl for varnish can be found in the following github repository: [Default VCL][varnish_vcl]
+An example of a best practice default.vcl for varnish can be found in the following github repository:
 
+* [Default VCL (3.x)][varnish_vcl_3]
+* [Default VCL (4.x)][varnish_vcl_4]
 
 <!-- Links Referenced -->
 
 [varnish]:          https://www.varnish-cache.org
-[varnish_vcl]:      https://raw.githubusercontent.com/sylus/vagrant-normandy/master/cookbooks/varnish-app/templates/default/default.vcl.erb
+[varnish_vcl_3]:    https://github.com/mattiasgeniar/varnish-3.0-configuration-templates/blob/master/production.vcl
+[varnish_vcl_4]:    https://github.com/mattiasgeniar/varnish-4.0-configuration-templates/blob/master/default.vcl

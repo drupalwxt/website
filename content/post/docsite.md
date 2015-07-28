@@ -12,9 +12,9 @@ date = "2015-01-13T13:10:52-05:00"
 
 Our new documentation site for Drupal WxT is now being powered by Hugo.
 
-Of course we could be using Drupal itself to power our documentation site but that would be overkill for such simple requirements this site requires.
+Of course we could be using Drupal itself to power our documentation site but that would be overkill for such simple requirements that this site requires.
 
-Remember we should always be practicing the methodology of the choosing the right tool for the right job!
+Remember we should always be practicing the methodology of choosing the right tool for the right job!
 
 ## What is Hugo
 
@@ -24,6 +24,10 @@ Sites built with Hugo are extremely fast and very secure. Hugo sites can be host
 
 Hugo has nearly instant build times and the ability to rebuild whenever a change is made, Hugo provides a very fast feedback loop. This is essential when you are designing websites, but also very useful when creating content.
 
+For information on how to contribute to the documentation site please consult the [README.md][readme] file.
+
+
 <!-- Links Referenced -->
 
 [hugo]:         http://gohugo.io/
+[readme]:       https://github.com/drupalwxt/website/blob/master/README.md

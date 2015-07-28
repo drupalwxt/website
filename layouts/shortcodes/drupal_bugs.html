@@ -1,0 +1,21 @@
+<table id="components-theme" class="wb-tables table table-striped table-hover" data-wb-tables='{"columnDefs": [ { "visible": true, "targets": [ 2 ] } ], "lengthMenu": [[10, 25, -1], [10, 25, "All"]], "pageLength": -1 }'>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>URL</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+      {{ $url := .Get "url" }}
+      {{ $j := getJSON $url }}
+      {{ range $j.list }}
+      {{ $p := . }}
+      <tr>
+          <td><strong>{{ $p.title }}</strong></td>
+          <td><a href="{{ $p.url }}" target="_blank">{{ $p.url }}</a></td>
+          <td>{{ $p.body.value | safeHTML }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+</table>

@@ -9,9 +9,9 @@ tags = [
 date = "2015-01-13T13:10:52-05:00"
 +++
 
-<div class="alert alert-info">
+<div class="alert alert-warning">
   <h4>Important</h4>
-  <p>If you aren't a developer please only install Drupal via the official package at <a href="http://drupal.org/project/wetkit">Drupal WxT</a>.</p>
+  <p>These instructions are mostly for legacy purposes. Up to date instructions can by found via the official package at <a href="http://drupal.org/project/wetkit">Drupal WxT</a>.</p>
 </div>
 
 Drupal WxT uses Drush Make for a rapid built-out of the Drupal codebase. A drush make file is similar to an "ant script" and allows us to host just the code that we are developing (Installation Profile and Custom Modules, Features, and Themes) on GitHub. Any user who has Drush installed can then perform a build-out of both the Drupal Core package and various contributed modules hosted on Drupal.org.

@@ -1,13 +1,10 @@
-NAME = drupalwxt.io
+NAME = drupalwxt.github.io
 VERSION = 4.0.0
 
 all: build
 
-prepare:
-	cd themes/wxt && bower install
-
-build:
-	hugo server --theme=wxt --buildDrafts --watch
+dev:
+	./dev.sh
 
 deploy:
 	./deploy.sh

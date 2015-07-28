@@ -17,6 +17,3 @@ script:
   - git remote set-url origin "https://${GH_TOKEN}@github.com/drupalwxt/drupalwxt.github.io.git"
   - git submodule add -f "https://${GH_TOKEN}@github.com/drupalwxt/drupalwxt.github.io.git" public
   - ./deploy.sh "Initial commit"
-env:
-  global:
-    secure: D43xoqFW2AusC4f3R1A/1ThQprllcKKY9aSNkG9/i6Ds1e/jEgiqKSxZ86NlwP6hAYqKe1dGnpbucOBUgnD9kvdIIPlnrA9j+RGpkeu8n9QIIufHi79TSeklz+zoh9UOJTcKKfBVI6yrlpqr4RN4KdNW146viu3c/ywHmjMIJcw=

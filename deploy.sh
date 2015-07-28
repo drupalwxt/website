@@ -8,10 +8,6 @@ hugo --theme=wxt --buildDrafts
 # Go To Public folder
 cd public
 
-# Remove files that are not needed
-find lib/wet-boew* -name "*.html" -type f | xargs rm -f
-rm -rf lib/wet-boew/unmin
-
 # Add changes to git.
 git add -A
 

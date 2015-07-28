@@ -28,3 +28,4 @@ vendor/
 # Hugo
 Hugo
 public
+themes/*

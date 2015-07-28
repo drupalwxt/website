@@ -7,6 +7,7 @@ tags = [
     "architecture",
 ]
 date = "2015-01-13T13:10:52-05:00"
+weight = -50
 +++
 
 Release Cycle
@@ -27,13 +28,15 @@ The Drupal WxT 7.x-4.x will be where the new work on the Bootstrap integration w
 begin. The whole process will be outlined in the [roadmap][roadmap] section. The next
 release will be our first RC candidate.
 
+A generated list of all 4.x releases with Changelog can be found at the [Releases][releases] page.
+
 Update Process
 --------------
 
 <div class="alert alert-info">
   <h4>Important</h4>
   <p>You should only ever upgrade from one version to the next sequential version!</p>
-  <p>Consistently the <a href="https://github.com/wet-boew/wet-boew-drupal/blob/7.x-4.x/CHANGELOG.md">CHANGELOG.md</a> files for up-to-date information on the Drupal WxT releases.</p>
+  <p>Consistently check the <a href="https://github.com/wet-boew/wet-boew-drupal/blob/7.x-4.x/CHANGELOG.md">CHANGELOG.md</a> files for up-to-date information on the Drupal WxT releases.</p>
 </div>
 
 It is inadvisable to skip versions as certain update hooks expect the existence of certain
@@ -57,7 +60,8 @@ experienced developer. In the end just stick to the release cycle as it will sav
 
 [features_override]:  https://drupal.org/project/features_override
 [media_overriden]:    https://drupal.org/node/2104193
-[roadmap]:            /pages/roadmap
+[releases]:           /wxt/releases
+[roadmap]:            /community/roadmap
 [wetkit_widgets]:     /wxt/widgets
 [wetkit_images]:      /wxt/images
 [changelog]:          https://github.com/wet-boew/wet-boew-drupal/blob/7.x-4.x/CHANGELOG.md

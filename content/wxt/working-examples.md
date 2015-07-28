@@ -7,8 +7,9 @@ tags = [
     "wxt",
 ]
 date = "2015-01-13T13:10:52-05:00"
+type = "single"
+weight = -100
 +++
-
 
 Below we highlight the work done on getting the various WxT components / plugins and themes / styles leveraged properly in Drupal.
 
@@ -59,7 +60,7 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
             <td>theme-ogpl</td>
         </tr>
         <tr>
-            <td><a href="http://wet-boew.github.io/themes-dist/theme/index-en.html">Web Experience Toolkit (WET) theme</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/theme/index-en.html">Web Experience Toolkit (WET) theme</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
             <td>Full support via Libraries API and WetKit Bootstrap theme.</td>
             <td>theme-wet-boew</td>
@@ -92,14 +93,16 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
             <td>twitter</td>
         </tr>
         <tr>
-            <td><a href="zebra/zebra-en.html">Zebra striping</a></td>
+            <td><a href="http://wet-boew.github.io/wet-boew/demos/lightbox/lightbox-en.html">Lightbox</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/plugins-en.html">Plugins</a></td>
-            <td>Supported natively in the theme with standard markup and default templates. Various contrib such as Views can use this by simply adding a wb-zabra class.</td>
+            <td>Supported natively in the theme with standard markup as well as with a Field formatter for Image types.</td>
+            <td>lightbox</td>
+        </tr>
+        <tr>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/demos/zebra/zebra-en.html">Zebra striping</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/plugins-en.html">Plugins</a></td>
+            <td>Supported natively in the theme with standard markup and default templates. Various contrib such as Views can use this by simply adding a <i>wb-zebra</i> class.</td>
             <td>zebra</td>
         </tr>
     </tbody>
 </table>
-
-<!-- Links Referenced -->
-
-[postgresql]:       http://postgresql.org

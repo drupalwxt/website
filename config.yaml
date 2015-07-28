@@ -5,17 +5,81 @@ PublishDir: "public"
 BuildDrafts: true
 LanguageCode: "en-us"
 Title: "Drupal WxT"
+PluralizeListTitles: False
+menu:
+  main:
+    - Name: "WxT"
+      Weight: -110
+      Identifier: "wxt"
+      Url: "/wxt/"
+    - Name: "Modules for WxT"
+      Parent: "wxt"
+      Weight: -110
+      Url: "/wxt/modules/"
+    - Name: "Releases for WxT"
+      Parent: "wxt"
+      Weight: -110
+      Url: "/wxt/releases/"
+    - Name: "Working Examples"
+      Parent: "wxt"
+      Weight: -110
+      Url: "/wxt/working-examples/"
+    - Name: "All WxT Entries"
+      Parent: "wxt"
+      Weight: -100
+      Url: "/wxt/"
+    - Name: "Architecture"
+      Weight: -100
+      Identifier: "architecture"
+      Url: "/architecture/"
+    - Name: "All Architecture Entries"
+      Parent: "architecture"
+      Weight: -100
+      Url: "/architecture/"
+    - Name: "Release Cycle / Updates"
+      Parent: "architecture"
+      Weight: -110
+      Url: "/architecture/release-cycle/"
+    - Name: "Community"
+      Weight: -100
+      Identifier: "community"
+      Url: "/community/"
+    - Name: "Office Hours"
+      Parent: community
+      Weight: -110
+      Identifier: "office-hours"
+      Url: "/community/office-hours/"
+    - Name: "Roadmap"
+      Parent: community
+      Weight: -110
+      Identifier: "roadmap"
+      Url: "/community/roadmap/"
+    - Name: "All Community Entries"
+      Parent: "community"
+      Weight: -100
+      Url: "/community/"
+    - Name: "Blog"
+      Weight: -90
+      Identifier: "blog"
+      Url: "/post/"
+    - Name: "Performance"
+      Weight: -90
+      Identifier: "performance"
+      Url: "/performance/"
 Params:
   Author: "William Hearn"
-  DateForm: "Mon Jan 2 15:04:05 2006"
+  Banner: "Providing succinct information on how to work with Drupal WxT 4.x for the Web Experience Toolkit!"
+  DateForm: "2006-01-02"
+  disqusShortname: "drupalwxt"
   GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
-  Github: "drupalwxt/drupalwxt"
+  Github: "wet-boew/wet-boew-drupal"
+  Search: "drupalwxt.github.io"
   ShowRelatedPost: True
-  Slogan: "DrupalWxT Documentation Site"
-  Disqus: "XXXX-XXXX-XXXX"
+  Slogan: "Documentation Site for Drupal WxT"
   SyntaxHighlightTheme: "monokai.min.css"
+  Theme: "theme-wet-boew"
 Indexes:
   tag: "tags"
 permalinks:
-  post: /blog/:year/:month/:day/:title/
+  post: /post/:year/:month/:day/:title/
 MetadataFormat: "yaml"

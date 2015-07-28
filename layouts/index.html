@@ -1,0 +1,31 @@
+{{ partial "header/default_header.html" . }}
+<!-- Banner -->
+<div class="jumbotron">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.Banner }}</p>
+    <p><a href="https://drupal.org/project/wetkit" class="btn btn-primary btn-lg">Learn more</a></p>
+</div>
+<!-- Build Status -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="pull-right">
+            <a href="https://travis-ci.org/wet-boew/wet-boew-drupal">
+                <img src="https://travis-ci.org/wet-boew/wet-boew-drupal.png?branch=7.x-4.x" alt="Travis CI" />
+            </a>
+        </div>
+    </div>
+</div>
+<!-- Columns -->
+<div class="row">
+    <div class="col-lg-6">
+        <h2>Drupal</h2>
+        <p>Drupal is a free and open-source content management framework written in PHP and distributed under the GPL. It is used as a back-end system for at 2% of all websites worldwide.</p>
+        <p><a class="btn btn-default" href="http://drupal.org">Visit Website</a></p>
+    </div>
+    <div class="col-lg-6">
+        <h2>WET-BOEW</h2>
+        <p>Drupal WxT leverages the WET-BOEW jQuery Framework which is an open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual.</p>
+        <p><a class="btn btn-default" href="https://github.com/wet-boew/wet-boew">Visit Website</a></p>
+    </div>
+</div>
+{{ partial "footer/default_footer.html" . }}
