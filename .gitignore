@@ -28,4 +28,4 @@ vendor/
 # Hugo
 Hugo
 public
-themes/*
+themes/wxt
