@@ -7,6 +7,7 @@ tags = [
     "architecture",
 ]
 date = "2015-01-13T13:10:52-05:00"
+type = "single"
 +++
 
 <div class="alert alert-info">

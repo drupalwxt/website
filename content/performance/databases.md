@@ -7,11 +7,10 @@ tags = [
     "performance",
 ]
 date = "2015-01-13T13:10:52-05:00"
+type = "single"
 +++
 
-There are a variety of Databases you can use with Drupal as listed in the [Drupal requirements][drupal_req] section.
-
-However only MySQL + PostgreSQL are tested extensively with Drupal WxT and the various contrib modules it leverages.
+There are a variety of Databases you can use with Drupal as listed in the [Drupal requirements][drupal_req] section. However only MySQL + PostgreSQL are tested extensively with Drupal WxT and the various contrib modules it leverages.
 
 Additionally it has been our experience that Microsoft SQL Server is possible but with many caveats. While Oracle support itself should not be attempted due to a outdated PDO Driver.
 

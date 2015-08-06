@@ -1,7 +1,7 @@
 +++
 draft = true
 title = "Releases"
-description="Releases for Drupal WxT."
+description="Releases / Changelog for Drupal WxT."
 language = "en"
 tags = [
     "releases",

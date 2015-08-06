@@ -1,6 +1,6 @@
 +++
 draft = true
-title = "Deployment"
+title = "Content Staging"
 description="Deployment functionality for Drupal content staging."
 language = "en"
 tags = [
@@ -9,19 +9,20 @@ tags = [
     "wxt"
 ]
 date = "2015-01-18T13:10:52-05:00"
+type = "single"
 +++
 
 ## Overview
 
 There are 4 essential components that facilitate the deployment workflow:
 
-1. WetKit Deployment: Provides the base configuration for both source and destination servers as well as default content types
+1. **WetKit Deployment**: Provides the base configuration for both source and destination servers as well as default content types
 
-2. WetKit Deployment Environment Indicator: Provides contextual environment informaiton (Dev, QA, Prod) on the toolbar to ease working with multiple sites
+2. **WetKit Deployment Environment Indicator**: Provides contextual environment informaiton (Dev, QA, Prod) on the toolbar to ease working with multiple sites
 
-3. WetKit Deployment Source: Provides the functionality to deploy content in JSON to the destination servers
+3. **WetKit Deployment Source**: Provides the functionality to deploy content in JSON to the destination servers
 
-4. WetKit Deployment Destination: Provides the CRUD interface to consume the JSON data that was sent from the client server
+4. **WetKit Deployment Destination**: Provides the CRUD interface to consume the JSON data that was sent from the client server
 
 ## Modules
 
@@ -41,7 +42,7 @@ There are 4 essential components that facilitate the deployment workflow:
 
 ### WetKit Deployment Source:
 
-* Drupal modules: deploy, deploy_services_client, entity_dependency, entity_menu_links, shared_content_source, and uuid. (Including submodules + WxT base)
+* Drupal modules: deploy, deploy_services_client, entity_dependency, entity_menu_links, shared_content_source, and uuid
 * Batch Endpoints:
 
   * Bulk deploy entities to Destination Server
@@ -65,7 +66,7 @@ There are 4 essential components that facilitate the deployment workflow:
 
 ### WetKit Deployment Destination:
 
-* Drupal modules: entity_menu_links, services + rest server, shared_content_destination, and uuid (including additional sub modules + WxT base)
+* Drupal modules: entity_menu_links, services + rest server, shared_content_destination, and uuid
 * Configures the CRUD endpoints and available settings:
 
     ```
@@ -87,4 +88,4 @@ There are 4 essential components that facilitate the deployment workflow:
 
 ## Caveats
 
-Drupal WxT provides automatic support for deployment on a variety of entities and associated bundles. However it can only provide deployment support for entities that it currently knows about. For custom entities and bundles it is useful to provide the steps to add deployment support.
+Drupal WxT provides automatic support for deployment on a variety of entities and associated bundles. However it can only provide deployment support for entities that it currently knows about.

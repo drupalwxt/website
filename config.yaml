@@ -12,6 +12,10 @@ menu:
       Weight: -110
       Identifier: "wxt"
       Url: "/wxt/"
+    - Name: "Content Staging"
+      Parent: "wxt"
+      Weight: -110
+      Url: "/wxt/deployment/"
     - Name: "Modules for WxT"
       Parent: "wxt"
       Weight: -110
@@ -40,6 +44,14 @@ menu:
       Parent: "architecture"
       Weight: -110
       Url: "/architecture/release-cycle/"
+    - Name: "Libraries API"
+      Parent: "architecture"
+      Weight: -110
+      Url: "/architecture/libraries-api/"
+    - Name: "Drush Make + Site Install"
+      Parent: "architecture"
+      Weight: -110
+      Url: "/architecture/drush-make/"
     - Name: "Community"
       Weight: -100
       Identifier: "community"

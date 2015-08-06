@@ -10,24 +10,18 @@ tags = [
 date = "2015-01-13T13:10:52-05:00"
 +++
 
-Our new documentation site for Drupal WxT is now being powered by Hugo.
+Our new documentation site for Drupal WxT has been updated and with it a improved workflow for collaboration. This documentation site is powered by [Hugo][hugo] (a static site generator) that converts markdown files to html and allows for a quick and easy deployment to GitHub pages.
 
-Of course we could be using Drupal itself to power our documentation site but that would be overkill for such simple requirements that this site requires.
+This allows for contributors who feel the documentation is lacking in certain areas to simply perform a pull request and submit a markdown file  alongside with the appropriate front matter (metadata about the content).
 
-Remember we should always be practicing the methodology of choosing the right tool for the right job!
+Should the pull request be accepted the code will automatically be pushed to the live website via [Travis CI][travis-ci] and published to [drupalwxt.github.io][drupalwxt].
 
-## What is Hugo
-
-[Hugo][hugo] itself is a general-purpose static site generator framework.
-
-Sites built with Hugo are extremely fast and very secure. Hugo sites can be hosted anywhere, including Heroku, GoDaddy, DreamHost, GitHub Pages, Amazon S3 and CloudFront, and work well with CDNs. Hugo sites run without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases.
-
-Hugo has nearly instant build times and the ability to rebuild whenever a change is made, Hugo provides a very fast feedback loop. This is essential when you are designing websites, but also very useful when creating content.
-
-For information on how to contribute to the documentation site please consult the [README.md][readme] file.
+For more information on how to contribute to the documentation site please consult the [README.md][readme] file.
 
 
 <!-- Links Referenced -->
 
+[drupalwxt]:    http://drupalwxt.github.io
 [hugo]:         http://gohugo.io/
-[readme]:       https://github.com/drupalwxt/website/blob/master/README.md
+[readme]:       https://raw.githubusercontent.com/drupalwxt/wet-boew-hugo/master/README.md
+[travis-ci]:    http://travis-ci.org

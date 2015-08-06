@@ -7,6 +7,7 @@ tags = [
     "performance",
 ]
 date = "2015-01-20T13:10:52-05:00"
+type = "single"
 +++
 
 [XHProf][xhprof] is a function-level hierarchical profiler for PHP. The raw data collection component is implemented in C (as a PHP extension). It is capable of reporting function-level inclusive and exclusive wall times, memory usage, CPU times and number of calls for each function. Additionally, it supports ability to compare two runs (hierarchical DIFF reports), or aggregate results from multiple runs.

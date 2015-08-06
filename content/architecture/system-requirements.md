@@ -7,6 +7,7 @@ tags = [
     "architecture",
 ]
 date = "2015-01-13T13:10:52-05:00"
+type = "single"
 +++
 
 Drupal WxT can run on a wide range of desktop and server operating systems including Windows, MacOS, Linux and UNIX. However, you will need to configure the environment according to the standard Drupal 7 requirements. This page provides a brief summary of those requirements and recommendations. More information is available from the [system requirements page][system_requirements] at Drupal.org.
@@ -15,13 +16,13 @@ Drupal WxT can run on a wide range of desktop and server operating systems inclu
 
 * Apache 2.x
 * Microsoft IIS
-* NGINX (Fastest)
+* NGINX
 
 ## Database server
 
-* PostgreSQL 8.4 or higher with PDO (Recommended)
-* MySQL 5.0.15 or higher with PDO
-* SQLite 3.3.7 or higher (Development Only)
+* PostgreSQL 8.4+
+* MySQL 5.0.15+
+* SQLite 3.3.7+ (Development)
 
 ## PHP
 

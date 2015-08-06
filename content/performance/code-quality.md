@@ -7,13 +7,19 @@ tags = [
     "performance",
 ]
 date = "2015-01-20T13:10:52-05:00"
+type = "single"
 +++
+
+<div class="alert alert-info">
+  <h4>Important</h4>
+  <p>These instructions might be a little out of date as much of the projects mentioned below have been incorporated into the Coder module</p>
+</div>
 
 The following is a list of best practice tools to use when analyzing the code quality of modules made for Drupal:
 
-1. [PHP CodeSniffer][php_cs]
-2. [DrupalCS][drupalcs]
-3. [DrupalPractice][drupalpractice]
+1. [Coder][drupalcs]
+2. [PHP CodeSniffer][php_cs]
+3. [DrupalPractice][drupalpractice] (merged into Coder)
 4. [DrupalSecure][drupalsecure]
 
 Normally these tools would be run based on a push to a CI server and will affect the build status if failures are detected.
@@ -55,5 +61,5 @@ DrupalSecure Code Sniffer (secure_cs) is a secure coding validation tool for Dru
 
 [php_cs]:                 https://github.com/squizlabs/PHP_CodeSniffer
 [drupalcs]:               https://www.drupal.org/project/coder
-[drupalpractice]:          https://www.drupal.org/project/drupalpractice
+[drupalpractice]:         https://www.drupal.org/project/drupalpractice
 [drupalsecure]:           https://www.drupal.org/sandbox/coltrane/1921926

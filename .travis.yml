@@ -16,6 +16,4 @@ script:
   - cd themes
   - git clone https://github.com/drupalwxt/wet-boew-hugo.git wxt
   - cd wxt && bower install && cd ../..
-  - git remote set-url origin "https://${GH_TOKEN}@github.com/drupalwxt/drupalwxt.github.io.git"
-  - git submodule add -f "https://${GH_TOKEN}@github.com/drupalwxt/drupalwxt.github.io.git" public
   - ./deploy.sh "Initial commit" > /dev/null 2>&1

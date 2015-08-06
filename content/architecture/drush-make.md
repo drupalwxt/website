@@ -1,24 +1,25 @@
 +++
 draft = true
-title = "Drush Make (Developers)"
+title = "Drush Make + Site Install"
 description="To facilitate development with Drupal WxT."
 language = "en"
 tags = [
     "architecture",
 ]
 date = "2015-01-13T13:10:52-05:00"
+type = "single"
 +++
 
-<div class="alert alert-warning">
+<div class="alert alert-info">
   <h4>Important</h4>
-  <p>These instructions are mostly for legacy purposes. Up to date instructions can by found via the official package at <a href="http://drupal.org/project/wetkit">Drupal WxT</a>.</p>
+  <p>These instructions could become outdated over time. Up to date instructions can always be found via the official <a href="https://github.com/wet-boew/wet-boew-drupal/blob/7.x-4.x/README.md">readme</a>.</p>
 </div>
 
 Drupal WxT uses Drush Make for a rapid built-out of the Drupal codebase. A drush make file is similar to an "ant script" and allows us to host just the code that we are developing (Installation Profile and Custom Modules, Features, and Themes) on GitHub. Any user who has Drush installed can then perform a build-out of both the Drupal Core package and various contributed modules hosted on Drupal.org.
 
 1. Ensure you have the appropriate base requirements setup for Drupal as per the [System Requirements][system_requirements] documentation.
 
-2. Install Drush 5.8 or higher (inlcudes Drush Make):
+2. Install Drush 6.3 or higher (includes Drush Make):
 
     a) Linux, Mac OSX: Follow instructions at [drupal.org][drush_server_install]
 
@@ -38,16 +39,9 @@ Drupal WxT uses Drush Make for a rapid built-out of the Drupal codebase. A drush
 
 5. Build the Drupal installation profile
 
-    a) On a Unix-like system:
-
     ``` bash
-    drush make --prepare-install --no-gitinfofile --working-copy wet-boew-drupal/build-wetkit-github.make /var/www/html --yes
-    ```
-
-    b) On Windows:
-
-    ``` bash
-    drush make --prepare-install --no-gitinfofile --working-copy wet-boew-drupal/build-wetkit-github.make C:\inetpub\wwwroot\Website1\ --yes
+    drush make --yes --working-copy --no-gitinfofile profiles/wetkit/drupal-org-core.make --prepare-install
+    drush make --yes --working-copy --no-gitinfofile profiles/wetkit/drupal-org.make --no-core --contrib-destination=profiles/wetkit
     ```
 
 6. Quickly install using the Drush CLI (Password must not be simple or won't install)
@@ -55,13 +49,23 @@ Drupal WxT uses Drush Make for a rapid built-out of the Drupal codebase. A drush
     a) For example, on a MySQL database:
 
     ``` bash
-    drush si wetkit wetkit_theme_selection_form.theme=wetkit_omega install_configure_form.demo_content=TRUE --sites-subdir=default --db-url=mysql://root:@127.0.0.1:3306/wetkit_db --account-name=admin --account-pass=WetKit@2013 --site-mail=admin@example.com --site-name='Web Experience Toolkit' --yes
+    drush si wetkit \
+      wetkit_theme_selection_form.theme=wetkit_bootstrap install_configure_form.demo_content=TRUE \
+      --db-url=pgsql://drupal:drupal@127.0.0.1:3306/wetkit_db \
+      --sites-subdir=default \
+      --account-name=admin \
+      --account-pass=Password@1234 \
+      --site-mail=admin@example.com \
+      --site-name='Web Experience Toolkit' \
+      --yes;
     ```
+
+    Note: For the 1.x version the theme parameter should be `wetkit_omega`.
 
     b) For a PostgreSQL database, change the --db-url option to:
 
     ``` bash
-    --db-url=pgsql://drupalusr:drupalpass@127.0.0.1/wetkit_db
+    --db-url=pgsql://drupalusr:drupalpass@127.0.0.1:5432/wetkit_db
     ```
 
     c) For a Microsoft SQL Server database, change the --db-url option to:
@@ -81,10 +85,10 @@ Drupal WxT uses Drush Make for a rapid built-out of the Drupal codebase. A drush
     ```
     Note that on Ubuntu Linux the apache user is 'www-data';
 
-    b) On Windows:
+    b) On Windows (Needs Update):
 
-    <!-- icacls sites\default\settings.php /grant BUILTIN\IIS_IUSRS:(W)-->
     ``` bash
+    icacls sites\default\settings.php /grant BUILTIN\IIS_IUSRS:(W)
     icacls sites\default\files /grant BUILTIN\IIS_IUSRS:(OI)(CI)(M)
     ```
 
@@ -94,5 +98,6 @@ Drupal WxT uses Drush Make for a rapid built-out of the Drupal codebase. A drush
 [drush_win_install]:            http://drush.ws/drush_windows_installer
 [git_osx_install]:              http://code.google.com/p/git-osx-installer
 [git_win_install]:              http://msysgit.github.com
+[readme]:                       https://github.com/wet-boew/wet-boew-drupal/blob/7.x-4.x/README.md
 [system_requirements]:          /architecture/system-requirements
 [wxt]:                          http://drupal.org/project/wetkit
