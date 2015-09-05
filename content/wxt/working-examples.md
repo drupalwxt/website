@@ -68,6 +68,33 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
     </tbody>
 </table>
 
+## Supported WxT Themes (Additions)
+
+<table id="components-theme-additons" class="wb-tables table table-striped table-hover" data-wb-tables='{"columnDefs": [ { "visible": false, "targets": [ 3 ] } ], "lengthMenu": [[10, 25, -1], [10, 25, "All"]], "pageLength": -1 }'>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Drupal Integration</th>
+            <th>Keywords</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/theme/servermessage-en-fr.html">Maintenance Pages</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
+            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
+            <td>maintenance</td>
+        </tr>
+        <tr>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/theme/splashpage-en.html">Splash Pages</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
+            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a>, Splashify and WetKit Bootstrap theme.</td>
+            <td>splash</td>
+        </tr>
+    </tbody>
+</table>
+
 ## Supported WxT Plugins
 
 <table id="components-plugins" class="wb-tables table table-striped table-hover" data-wb-tables='{"columnDefs": [ { "visible": false, "targets": [ 3 ] } ], "lengthMenu": [[10, 25, -1], [10, 25, "All"]], "pageLength": -1 }'>
@@ -87,10 +114,34 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
                 <p>Supported via the following:</p>
                 <ul>
                     <li>Natively with any html input (panes, views, wysiwyg)</li>
-                    <li>CTools Widget linked to a custom field (field_archived_content).</li>
+                    <li>CTools Widget: Archived Content</li>
                 </ul>
             </td>
             <td>archived</td>
+        </tr>
+        <tr>
+            <td><a href="http://wet-boew.github.io/wet-boew/demos/details/details-en.html">Collapsible content</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/other-en.html">Plugins</a></td>
+            <td>
+                <p>Supported via the following:</p>
+                <ul>
+                    <li>Natively with any html input (panes, views, wysiwyg)</li>
+                    <li>CTools Region Style: Collapsible Content</li>
+                </ul>
+            </td>
+            <td>collapsible</td>
+        </tr>
+        <tr>
+            <td><a href="http://wet-boew.github.io/wet-boew/demos/equalheight/equalheight-en.html">Equal Height</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/other-en.html">Plugins</a></td>
+            <td>
+                <p>Supported via the following:</p>
+                <ul>
+                    <li>Natively with any html input (panes, views, wysiwyg)</li>
+                    <li>CTools CSS Style</li>
+                </ul>
+            </td>
+            <td>equalheight</td>
         </tr>
         <tr>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/twitter/twitter-en.html">Twitter embedded timeline</a></td>
@@ -99,7 +150,7 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
                 <p>Supported via the following:</p>
                 <ul>
                     <li>Natively with any html input (panes, views, wysiwyg)</li>
-                    <li>Support as a Bean Plugin (Twitter)</li>
+                    <li>Bean Plugin: Twitter</li>
                 </ul>
             </td>
             <td>twitter</td>
@@ -111,7 +162,7 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
                 <p>Supported via the following:</p>
                 <ul>
                     <li>Natively with any html input (panes, views, wysiwyg)</li>
-                    <li>Field Formatter for field type: image</li>
+                    <li>Field Formatter: image (field type)</li>
                 </ul>
             </td>
             <td>lightbox</td>
@@ -123,32 +174,32 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
                 <p>Supported via the following:</p>
                 <ul>
                     <li>Natively with any html input (panes, views, wysiwyg)</li>
-                    <li>CTools Widget (Menu Block)</li>
+                    <li>CTools Widget: Menu Block</li>
                     <li>Drupal theme functions</li>
                 </ul>
             </td>
             <td>lightbox</td>
         </tr>
         <tr>
-            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/multimedia/multimedia-en.html">Multimedia Player</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/multimedia/multimedia-en.html">Multimedia Player (Audio, Video)</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/plugins-en.html">Plugins</a></td>
             <td>
                 <p>Supported via the following:</p>
                 <ul>
                     <li>Natively with any html input (panes, views, wysiwyg)</li>
-                    <li>File Entity (WetKit Video)</li>
+                    <li>File Entity: Video</li>
                 </ul>
             </td>
             <td>lightbox</td>
         </tr>
         <tr>
-            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/share/share-en.html">Shared Widget</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/share/share-en.html">Share Widget</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/plugins-en.html">Plugins</a></td>
             <td>
                 <p>Supported via the following:</p>
                 <ul>
                     <li>Natively with any html input (panes, views, wysiwyg)</li>
-                    <li>CTools Widget (Share)</li>
+                    <li>CTools Widget: Share</li>
                 </ul>
             </td>
             <td>lightbox</td>
@@ -160,10 +211,22 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
                 <p>Supported via the following:</p>
                 <ul>
                     <li>Natively with any html input (panes, views, wysiwyg)</li>
-                    <li>Support as a Bean Plugin (Slideshow)</li>
+                    <li>CTools Region Style: Tabbed Interface</li>
                 </ul>
             </td>
-            <td>zebra</td>
+            <td>tabbedinterface</td>
+        </tr>
+        <tr>
+            <td><a href="http://wet-boew.github.io/wet-boew/demos/tabs/tabs-carousel-en.html">Tabbed Interface (Carousel)</a></td>
+            <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/plugins-en.html">Plugins</a></td>
+            <td>
+                <p>Supported via the following:</p>
+                <ul>
+                    <li>Natively with any html input (panes, views, wysiwyg)</li>
+                    <li>Bean Plugin: Slideshow</li>
+                </ul>
+            </td>
+            <td>tabbedinterface</td>
         </tr>
         <tr>
             <td><a href="http://wet-boew.github.io/v4.0-ci/demos/zebra/zebra-en.html">Zebra striping</a></td>
@@ -172,7 +235,7 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
                 <p>Supported via the following:</p>
                 <ul>
                     <li>Natively with any html input (panes, views, wysiwyg)</li>
-                    <li>Bootstrap (base theme)</li>
+                    <li>Bootstrap: Base Theme</li>
                 </ul>
             </td>
             <td>zebra</td>
