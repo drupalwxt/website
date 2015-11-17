@@ -16,6 +16,10 @@ menu:
       Parent: "wxt"
       Weight: -110
       Url: "/wxt/deployment/"
+    - Name: "Makefiles for WxT"
+      Parent: "wxt"
+      Weight: -110
+      Url: "/wxt/make/"
     - Name: "Modules for WxT"
       Parent: "wxt"
       Weight: -110
