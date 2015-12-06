@@ -37,11 +37,16 @@ Drupal WxT uses Drush Make for a rapid built-out of the Drupal codebase. A drush
     git clone https://github.com/wet-boew/wet-boew-drupal.git wet-boew-drupal
     ```
 
-5. Build the Drupal installation profile
+5. Build  and install the WxT installation profile using Drush (Password must not be simple)
 
     ``` bash
-    drush make --yes --working-copy --no-gitinfofile profiles/wetkit/drupal-org-core.make --prepare-install
-    drush make --yes --working-copy --no-gitinfofile profiles/wetkit/drupal-org.make --no-core --contrib-destination=profiles/wetkit
+    mv wet-boew-drupal wetkit
+    mkdir profiles
+    mv wetkit profiles/
+    mkdir drupal
+    mv profiles drupal/
+    drush make --yes profiles/wetkit/drupal-org-core.make --prepare-install
+    drush make --yes profiles/wetkit/drupal-org.make --no-core --contrib-destination=profiles/wetkit
     ```
 
 6. Quickly install using the Drush CLI (Password must not be simple or won't install)
