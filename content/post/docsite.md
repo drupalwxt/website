@@ -23,5 +23,5 @@ For more information on how to contribute to the documentation site please consu
 
 [drupalwxt]:    http://drupalwxt.github.io
 [hugo]:         http://gohugo.io/
-[readme]:       https://raw.githubusercontent.com/drupalwxt/wet-boew-hugo/master/README.md
+[readme]:       https://raw.githubusercontent.com/wet-boew/wet-boew-hugo/master/README.md
 [travis-ci]:    http://travis-ci.org
