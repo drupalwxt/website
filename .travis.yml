@@ -9,7 +9,7 @@ before_install:
   - cd ../website
 install:
   - curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
-  - sudo apt-get install nodejs npm
+  - sudo apt-get install nodejs
   - npm install -qg bower grunt-cli
   - git config --global user.email "${GIT_EMAIL}"
   - git config --global user.name "${GIT_NAME}"
