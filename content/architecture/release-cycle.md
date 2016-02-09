@@ -18,11 +18,11 @@ The Drupal WxT 7.x-4.x branch will be updated with a stable release approximatel
 
 ## 1.x branch
 
-Starting in September there will be no more new features integrated into the 7.x-1.x branch. Only security and minor bug fixes will be merged into the codebase for a period of 6 months. Starting in January 2016 this branch will officially become unsupported. Users will be encouraged to use the upgrade path to the 4.x branch.
+Starting in January 2016 there will be no more new features integrated into the 7.x-1.x branch. Only security and minor bug fixes will be merged into the codebase for a period of 6 months. Users are strongly encouraged to use the upgrade path to the 4.x branch.
 
 ## 4.x branch
 
-The Drupal WxT 7.x-4.x branch is where all new work is commencing and where additional features can be requested. The whole process will be outlined in the [roadmap][roadmap] section. Currently the 4.x branch is in the release candidate phase which means there are no longer any critical blockers holding us from an official stable release. It is anticipated that the 4.0 release will occur in the beginning of September.
+The Drupal WxT 7.x-4.x branch is where all new work is commencing and where additional features can be requested. The whole process will be outlined in the [roadmap][roadmap] section. Currently the 4.x branch is the official recommended branch.
 
 A generated list of all 4.x releases with Changelog can be found at the [Releases][releases] page.
 
