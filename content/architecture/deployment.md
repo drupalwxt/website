@@ -75,6 +75,36 @@ There are 4 essential modules that facilitate deployment in Drupal WxT:
 * Creates default destination field instances for beans, files, nodes (deploy + moderated), taxonomy terms (tags), and users
 * Configures redirect on edit page for all deployable entities on destination site so always redirects to source site
 
+## Deployment Plans
+
+Deployment plans have largely two options for processing. Though please note that Drupal WxT has duplicated these handlers in case custom logic was needed to get deployment to work with entity translation based deployments. Currently only the DeployServiceRest class has actually needed to be overridden from deploy itself.
+
+* Memory processor: All entities are deployed in memory. Works best with small deployments.
+* Queue API: All entities are queued for deployment with the Queue API. Works best with large deployments.
+* Batch API: All entities are processed with the Batch API. Works best when deployments are done through the UI.
+
+## Deployment Plans (Large Files)
+
+Please note that all types of deployments above are still subject to a variety of php settings. The following ones in particular should be noted:
+
+* max_allowed_packet
+* upload_max_filesize
+* post_max_size
+* memory_limit
+
+While the first three are relatively straightforward it is memory_limit that most often causes confusion when deployments timeout and/or fail. For instance if you upload a 50MB file on a source site, that file additionally has to be converted into JSON and sent to the destination site which already means the PHP process is using 100MB. If the php memory_limit is set to 256MB then one can see how problems arise.
+
+The current solution for this problem is to create a 'public://upload/media' folder and run the following commands:
+
+```sh
+
+    drush vset wetkit_deployment_source_file_contents_override TRUE
+    drush en media_bulk_upoad
+
+```
+
+What this does is disable the actual file being deployed but not the actual generated JSON or metadata about the file itself. We instead leverage inotify + rsync which is watching and then syncing to this specific directory between the source and production site. Therefore the php process doesn't have to handle the file aspect of the deployment and issues about the php memory_limit are resolved.
+
 ## Caveats
 
 Drupal WxT provides automatic support for deployment on a variety of entities and associated bundles. However it can only provide deployment support for entities that it currently knows about.
