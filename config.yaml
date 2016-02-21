@@ -12,10 +12,6 @@ menu:
       Weight: -110
       Identifier: "wxt"
       Url: "/wxt/"
-    - Name: "Content Staging"
-      Parent: "wxt"
-      Weight: -110
-      Url: "/wxt/deployment/"
     - Name: "Makefiles for WxT"
       Parent: "wxt"
       Weight: -110
@@ -40,6 +36,10 @@ menu:
       Weight: -100
       Identifier: "architecture"
       Url: "/architecture/"
+    - Name: "Content Staging"
+      Parent: "architecture"
+      Weight: -110
+      Url: "/architecture/deployment/"
     - Name: "All Architecture Entries"
       Parent: "architecture"
       Weight: -100
