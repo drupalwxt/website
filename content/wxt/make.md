@@ -245,13 +245,11 @@ For more information please consult:
     projects[advanced_help][version] = 1.3
     projects[advanced_help][subdir] = contrib
 
-    projects[apps][version] = 1.0-rc1
+    projects[apps][version] = 1.0
     projects[apps][subdir] = contrib
 
-    projects[better_formats][version] = 1.0-beta1
+    projects[better_formats][version] = 1.0-beta2
     projects[better_formats][subdir] = contrib
-    projects[better_formats][patch][1717470] = http://drupal.org/files/issues/better_formats_strict_warning-1717470-03.patch
-    projects[better_formats][patch][1712360] = http://drupal.org/files/issues/better_formats_description-1712360-02.patch
 
     projects[ctools][version] = 1.9
     projects[ctools][subdir] = contrib
@@ -285,7 +283,7 @@ For more information please consult:
     projects[entityreference][version] = 1.1
     projects[entityreference][subdir] = contrib
 
-    projects[entityreference_prepopulate][version] = 1.5
+    projects[entityreference_prepopulate][version] = 1.6
     projects[entityreference_prepopulate][subdir] = contrib
 
     projects[entity_view_mode][version] = 1.0-rc1
@@ -333,7 +331,7 @@ For more information please consult:
     projects[linkchecker][subdir] = contrib
     projects[linkchecker][patch][2340211] = http://drupal.org/files/issues/error_on_submission-2340211-10.patch.txt
 
-    projects[menu_attributes][version] = 1.0-rc3
+    projects[menu_attributes][version] = 1.0
     projects[menu_attributes][subdir] = contrib
 
     projects[menu_block][version] = 2.7
@@ -597,9 +595,8 @@ For more information please consult:
     projects[variable][version] = 2.5
     projects[variable][subdir] = contrib
 
-    projects[webform_localization][version] = 4.0-alpha14
+    projects[webform_localization][version] = 4.2
     projects[webform_localization][subdir] = contrib
-    projects[webform_localization][patch][2627812] = http://drupal.org/files/issues/undefined_index_nid_in-2627812-2.patch
     projects[webform_localization][patch][2627813] = http://drupal.org/files/issues/undefined_index_nid-2627812-5_1.patch
             </pre></p>
         </details>
@@ -666,7 +663,7 @@ For more information please consult:
 
     ; Modules for WetKit Organic Groups
 
-    projects[og][version] = 2.7
+    projects[og][version] = 2.8
     projects[og][subdir] = contrib
             </pre></p>
         </details>
