@@ -14,7 +14,7 @@ menu:
       Url: "/wxt/"
     - Name: "Releases for WxT"
       Parent: "wxt"
-      Weight: -110
+      Weight: -115
       Url: "/wxt/releases/"
     - Name: "Makefiles for WxT"
       Parent: "wxt"
