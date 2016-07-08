@@ -12,6 +12,10 @@ menu:
       Weight: -110
       Identifier: "wxt"
       Url: "/wxt/"
+    - Name: "Releases for WxT"
+      Parent: "wxt"
+      Weight: -110
+      Url: "/wxt/releases/"
     - Name: "Makefiles for WxT"
       Parent: "wxt"
       Weight: -110
@@ -20,10 +24,6 @@ menu:
       Parent: "wxt"
       Weight: -110
       Url: "/wxt/modules/"
-    - Name: "Releases for WxT"
-      Parent: "wxt"
-      Weight: -110
-      Url: "/wxt/releases/"
     - Name: "Working Examples"
       Parent: "wxt"
       Weight: -110
