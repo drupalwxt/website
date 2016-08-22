@@ -9,7 +9,7 @@
     <tbody>
       {{ $url := .Get "url" }}
       {{ $j := getJSON $url }}
-      {{ range first 10 $j }}
+      {{ range first 15 $j }}
       {{ $p := . }}
       {{ if in $p.name "7.x-4" }}
       <tr>
