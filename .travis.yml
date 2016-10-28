@@ -1,12 +1,14 @@
 language: go
 go:
-  - 1.5
+  - 1.6
+env:
+  global:
+    - HUGO_VERSION=0.17
 before_install:
-  - cd ..
-  - git clone https://github.com/spf13/hugo.git
-  - cd hugo
-  - go get
-  - cd ../website
+  - wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  - tar xvzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  - mkdir -p $HOME/bin
+  - cp hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 $HOME/bin/hugo
 install:
   - curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
   - sudo apt-get install nodejs
