@@ -28,7 +28,7 @@ For more information please consult:
     api = 2
     core = 7.x
 
-    projects[drupal][version] = 7.52
+    projects[drupal][version] = 7.54
     projects[drupal][type] = core
 
     ; Patches for Drupal Core
@@ -64,19 +64,19 @@ For more information please consult:
     projects[wetkit_breadcrumbs][version] = 4.6
     projects[wetkit_breadcrumbs][subdir] = custom
 
-    projects[wetkit_core][version] = 4.12
+    projects[wetkit_core][version] = 4.13
     projects[wetkit_core][subdir] = custom
 
     projects[wetkit_demo][version] = 4.3
     projects[wetkit_demo][subdir] = custom
 
-    projects[wetkit_deployment][version] = 4.13
+    projects[wetkit_deployment][version] = 4.14
     projects[wetkit_deployment][subdir] = custom
 
     projects[wetkit_images][version] = 4.5
     projects[wetkit_images][subdir] = custom
 
-    projects[wetkit_language][version] = 4.10
+    projects[wetkit_language][version] = 4.11
     projects[wetkit_language][subdir] = custom
 
     projects[wetkit_layouts][version] = 4.5
@@ -85,7 +85,7 @@ For more information please consult:
     projects[wetkit_menu][version] = 4.6
     projects[wetkit_menu][subdir] = custom
 
-    projects[wetkit_metatag][version] = 4.11
+    projects[wetkit_metatag][version] = 4.12
     projects[wetkit_metatag][subdir] = custom
 
     projects[wetkit_migrate][version] = 4.5
@@ -115,18 +115,19 @@ For more information please consult:
     projects[wetkit_wetboew][version] = 4.4
     projects[wetkit_wetboew][subdir] = custom
 
-    projects[wetkit_widgets][version] = 4.7
+    projects[wetkit_widgets][version] = 4.8
     projects[wetkit_widgets][subdir] = custom
 
-    projects[wetkit_wysiwyg][version] = 4.6
+    projects[wetkit_wysiwyg][version] = 4.8
     projects[wetkit_wysiwyg][subdir] = custom
+
 
     ; WxT Foundation (Themes)
 
     projects[wetkit_ember][version] = 4.4
     projects[wetkit_ember][type] = theme
 
-    projects[wetkit_bootstrap][version] = 4.11
+    projects[wetkit_bootstrap][version] = 4.12
     projects[wetkit_bootstrap][type] = theme
 
     projects[wetkit_shiny][version] = 4.0
@@ -261,9 +262,8 @@ For more information please consult:
     projects[devel][version] = 1.5
     projects[devel][subdir] = contrib
 
-    projects[diff][version] = 3.2
+    projects[diff][version] = 3.3
     projects[diff][subdir] = contrib
-    projects[diff][patch][2640478] = http://drupal.org/files/issues/diff-deprecating_php4_style-2640478-2.patch
 
     projects[elements][version] = 1.4
     projects[elements][subdir] = contrib
@@ -275,7 +275,7 @@ For more information please consult:
     projects[entityreference][version] = 1.2
     projects[entityreference][subdir] = contrib
 
-    projects[entityreference_prepopulate][version] = 1.6
+    projects[entityreference_prepopulate][version] = 1.7
     projects[entityreference_prepopulate][subdir] = contrib
 
     projects[entity_view_mode][version] = 1.0-rc1
@@ -309,7 +309,7 @@ For more information please consult:
     projects[hierarchical_select][patch][2719141] = http://drupal.org/files/issues/undefined_index_tid_in-2719141-19.patch
     projects[hierarchical_select][patch][2764871] = http://drupal.org/files/issues/feature-code-export-error-2764871-3.patch
 
-    projects[icon][version] = 1.0-beta6
+    projects[icon][version] = 1.0-rc1
     projects[icon][subdir] = contrib
 
     projects[libraries][version] = 2.3
@@ -342,11 +342,11 @@ For more information please consult:
     projects[panelizer][patch][1549608] = http://drupal.org/files/issues/panelizer-n1549608-26.patch
     projects[panelizer][patch][2788633] = http://drupal.org/files/issues/panelizer_update_7120-2788633-7.patch
 
-    projects[panels][version] = 3.8
+    projects[panels][version] = 3.9
     projects[panels][subdir] = contrib
     projects[panels][patch][1402860] = http://drupal.org/files/issues/panelizer_is-1402860-82-fix-ipe-end-js-alert.patch
     projects[panels][patch][2192355] = http://drupal.org/files/issues/i18n_panels_uuid_undefined-2192355-01.patch
-    projects[panels][patch][2253919] = http://drupal.org/files/issues/panels-re-generated-uuids-on-clone.patch
+    projects[panels][patch][2253919] = http://drupal.org/files/issues/the_uuids_of_cloned-2253919-24.patch
     projects[panels][patch][2508433] = http://drupal.org/files/issues/blocks_dont_support_optional_context-2508433-1.patch
 
     projects[panopoly_magic][version] = 1.41
@@ -368,9 +368,9 @@ For more information please consult:
     projects[strongarm][version] = 2.0
     projects[strongarm][subdir] = contrib
 
-    projects[token][version] = 1.6
+    projects[token][version] = 1.7
     projects[token][subdir] = contrib
-    projects[token][patch][961130] = http://drupal.org/files/issues/tokens_dropdown_arrow-2619078-14.patch
+    projects[token][patch][961130] = http://drupal.org/files/issues/tokens_dropdown_arrow-2619078-19.patch
     projects[token][patch][2023423] = http://drupal.org/files/issues/token-2023423-11.patch
 
     projects[total_control][version] = 2.4
@@ -387,10 +387,8 @@ For more information please consult:
     projects[uuid][patch][2145567] = http://drupal.org/files/issues/uuid_ctools_context-2145567-16.patch
     projects[uuid][patch][2279081] = http://drupal.org/files/issues/term_access_uuid-2279081-03.patch
 
-    projects[uuid_features][version] = 1.0-alpha4
+    projects[uuid_features][version] = 1.0-rc1
     projects[uuid_features][subdir] = contrib
-    projects[uuid_features][patch][2051915] = http://drupal.org/files/issues/uuid_features-uuid_term_optional_taxonomy-2051915-4.patch
-    projects[uuid_features][patch][2153157] = http://drupal.org/files/issues/uuid_features-undefined_index_when_processing_orphanned_bundles-2153157-2.patch
 
     projects[uuid_link][version] = 1.0-beta3
     projects[uuid_link][subdir] = contrib
@@ -495,7 +493,7 @@ For more information please consult:
     projects[quicktabs][subdir] = contrib
     projects[quicktabs][patch][1454486] = http://drupal.org/files/issues/quicktabs-tab-history-1454486-35.patch
 
-    projects[services][version] = 3.17
+    projects[services][version] = 3.18
     projects[services][subdir] = contrib
 
     projects[shared_content][version] = 1.0-beta2
@@ -546,7 +544,7 @@ For more information please consult:
     projects[features_translations][version] = 2.0
     projects[features_translations][subdir] = contrib
 
-    projects[i18n][version] = 1.14
+    projects[i18n][version] = 1.15
     projects[i18n][subdir] = contrib
 
     projects[i18nviews][version] = 3.0-alpha1
@@ -569,7 +567,7 @@ For more information please consult:
     projects[stringoverrides][version] = 1.8
     projects[stringoverrides][subdir] = contrib
 
-    projects[title][version] = 1.0-alpha8
+    projects[title][version] = 1.0-alpha9
     projects[title][subdir] = contrib
 
     projects[variable][version] = 2.5
@@ -591,10 +589,9 @@ For more information please consult:
 
     ; Module(s) for WetKit Metatag
 
-    projects[metatag][version] = 1.17
+    projects[metatag][version] = 1.20
     projects[metatag][subdir] = contrib
     projects[metatag][patch][2648494] = http://drupal.org/files/issues/metatag_html_entities-2648494-2.patch
-    projects[metatag][patch][2761477] = http://drupal.org/files/issues/metatag_module_missing-2761477-2.patch
             </pre></p>
         </details>
     </li>
@@ -754,10 +751,8 @@ For more information please consult:
     projects[file_lock][version] = 2.0
     projects[file_lock][subdir] = contrib
 
-    projects[media][version] = 2.0-beta7
+    projects[media][version] = 2.0-rc5
     projects[media][subdir] = contrib
-    projects[media][patch][2828665] = http://drupal.org/files/issues/regression_introduced-2828665-7.patch
-    projects[media][patch][2828856] = https://www.drupal.org/files/issues/regression_with_entity-2828856-7.patch
             </pre></p>
         </details>
     </li>
@@ -776,11 +771,8 @@ For more information please consult:
     projects[linkit][subdir] = contrib
     projects[linkit][patch][2381549] = http://drupal.org/files/issues/linkit_title_and_uuid-2381549-10.patch
 
-    projects[wysiwyg][version] = 2.x-dev
+    projects[wysiwyg][version] = 2.3
     projects[wysiwyg][subdir] = contrib
-    projects[wysiwyg][download][type] = git
-    projects[wysiwyg][download][revision] = 37dc07d
-    projects[wysiwyg][download][branch] = 7.x-2.x
     projects[wysiwyg][patch][1786732] = http://drupal.org/files/wysiwyg-arbitrary_image_paths_markitup-1786732-3.patch
 
     ; Include our Editors
@@ -827,7 +819,7 @@ For more information please consult:
 
     ; Theme(s)
 
-    projects[bootstrap][version] = 3.8
+    projects[bootstrap][version] = 3.10
     projects[bootstrap][type] = theme
     projects[bootstrap][patch][2311463] = http://drupal.org/files/issues/patch_bootstrap_wetkit-2311463-05.patch
     projects[bootstrap][patch][2469635] = http://drupal.org/files/issues/bootstrap-no_responsive_on_multi_val_form_elements-2469635-1.patch
