@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Code Quality"
 description="Showcasing tools that can help to ascertain the code quality of your Drupal installation."
 language = "en"

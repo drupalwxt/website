@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Apache and PHP-FPM"
 description="Showcasing how to leverage PHP-FPM with Apache."
 language = "en"

@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Content Staging with Deploy + UUID"
 description="Deployment functionality for distributing content across Drupal sites."
 language = "en"

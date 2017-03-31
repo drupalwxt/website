@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Memcached"
 description="To facilitate development with Drupal WxT."
 language = "en"

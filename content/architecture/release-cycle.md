@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Release Cycle / Updates"
 description="Information about the release cycle and how to update Drupal WxT between releases."
 language = "en"

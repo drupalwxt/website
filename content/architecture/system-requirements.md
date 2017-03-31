@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "System Requirements"
 description="Information about the release and how to update the Drupal WxT Distribution between versions."
 language = "en"

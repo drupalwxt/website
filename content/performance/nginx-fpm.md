@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Nginx and PHP-FPM"
 description="Showcasing how to leverage PHP-FPM with Nginx."
 language = "en"

@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Contributing to Documentation Site"
 description="How to contribute and help expand Drupal WxT end-user documentation."
 language = "en"

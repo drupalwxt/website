@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Tabbed Interface"
 description="How to create and edit a Tabbed Interface bean."
 language = "en"
