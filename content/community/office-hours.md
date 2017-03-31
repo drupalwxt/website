@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Office Hours"
 description="Office Hours for Drupal WxT."
 language = "en"

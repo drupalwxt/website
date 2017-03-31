@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Makefiles for Drupal WxT"
 description="Makefiles which form the building blocks and dependencies for Drupal WxT."
 language = "en"

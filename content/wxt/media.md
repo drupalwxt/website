@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Media Library - Images, Videos and Documents"
 description="How to use and manage the Media Library."
 language = "en"

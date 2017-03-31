@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Modules for Drupal WxT"
 description="Modules built to implemented functionality for WxT inside Drupal."
 language = "en"

@@ -11,77 +11,77 @@ menu:
     - Name: "WxT"
       Weight: -110
       Identifier: "wxt"
-      Url: "/wxt/"
+      URL: "/wxt/"
     - Name: "Releases for WxT"
       Parent: "wxt"
       Weight: -115
-      Url: "/wxt/releases/"
+      URL: "/wxt/releases/"
     - Name: "Makefiles for WxT"
       Parent: "wxt"
       Weight: -110
-      Url: "/wxt/make/"
+      URL: "/wxt/make/"
     - Name: "Modules for WxT"
       Parent: "wxt"
       Weight: -110
-      Url: "/wxt/modules/"
+      URL: "/wxt/modules/"
     - Name: "Working Examples"
       Parent: "wxt"
       Weight: -110
-      Url: "/wxt/working-examples/"
+      URL: "/wxt/working-examples/"
     - Name: "All WxT Entries"
       Parent: "wxt"
       Weight: -100
-      Url: "/wxt/"
+      URL: "/wxt/"
     - Name: "Architecture"
       Weight: -100
       Identifier: "architecture"
-      Url: "/architecture/"
+      URL: "/architecture/"
     - Name: "Content Staging"
       Parent: "architecture"
       Weight: -110
-      Url: "/architecture/deployment/"
+      URL: "/architecture/deployment/"
     - Name: "All Architecture Entries"
       Parent: "architecture"
       Weight: -100
-      Url: "/architecture/"
+      URL: "/architecture/"
     - Name: "Release Cycle / Updates"
       Parent: "architecture"
       Weight: -110
-      Url: "/architecture/release-cycle/"
+      URL: "/architecture/release-cycle/"
     - Name: "Libraries API"
       Parent: "architecture"
       Weight: -110
-      Url: "/architecture/libraries-api/"
+      URL: "/architecture/libraries-api/"
     - Name: "Drush Make + Site Install"
       Parent: "architecture"
       Weight: -110
-      Url: "/architecture/drush-make/"
+      URL: "/architecture/drush-make/"
     - Name: "Community"
       Weight: -100
       Identifier: "community"
-      Url: "/community/"
+      URL: "/community/"
     - Name: "Office Hours"
       Parent: community
       Weight: -110
       Identifier: "office-hours"
-      Url: "/community/office-hours/"
+      URL: "/community/office-hours/"
     - Name: "Roadmap"
       Parent: community
       Weight: -110
       Identifier: "roadmap"
-      Url: "/community/roadmap/"
+      URL: "/community/roadmap/"
     - Name: "All Community Entries"
       Parent: "community"
       Weight: -100
-      Url: "/community/"
+      URL: "/community/"
     - Name: "Blog"
       Weight: -90
       Identifier: "blog"
-      Url: "/post/"
+      URL: "/post/"
     - Name: "Performance"
       Weight: -90
       Identifier: "performance"
-      Url: "/performance/"
+      URL: "/performance/"
 Params:
   Author: "William Hearn"
   Banner: "Providing succinct information on how to work with Drupal WxT 4.x for the Web Experience Toolkit!"

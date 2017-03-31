@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Releases"
 description="Releases / Changelog for Drupal WxT."
 language = "en"

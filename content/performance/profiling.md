@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Profiling with XHProf + XHGui"
 description="Showcasing profiling tools that can help to analyze performance of your Drupal installation."
 language = "en"

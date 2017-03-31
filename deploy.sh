@@ -1,4 +1,5 @@
 #!/bin/bash
+# https://gohugo.io/tutorials/github-pages-blog/
 
 git remote set-url origin "https://${GH_TOKEN}@github.com/drupalwxt/drupalwxt.github.io.git"
 git submodule add -f "https://${GH_TOKEN}@github.com/drupalwxt/drupalwxt.github.io.git" public
@@ -6,7 +7,7 @@ git submodule add -f "https://${GH_TOKEN}@github.com/drupalwxt/drupalwxt.github.
 echo -e "\033[0;32mDeploying updates to Github...\033[0m"
 
 # Build the project.
-hugo --theme=wxt --buildDrafts
+hugo --theme=wxt
 
 # Go To Public folder
 cd public
