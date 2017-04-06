@@ -20,4 +20,5 @@ else
 fi
 
 cd wxt && bower install && cd ../..
-hugo server --theme=wxt --buildDrafts --watch
+hugo server --theme=$LOCALREPO \
+            --watch
