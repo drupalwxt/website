@@ -11,8 +11,8 @@ type = "single"
 +++
 
 <div class="alert alert-info">
-  <h4>Important</h4>
-  <p>These instructions could become outdated over time. Up to date instructions can always be found via the official <a href="https://github.com/wet-boew/wet-boew-drupal/blob/7.x-4.x/README.md">readme</a>.</p>
+<h4>Important</h4>
+<p>These instructions could become outdated over time. Up to date instructions can always be found via the official <a href="https://github.com/wet-boew/wet-boew-drupal/blob/7.x-4.x/README.md">readme</a>.</p>
 </div>
 
 Drupal WxT uses Drush Make for a rapid built-out of the Drupal codebase. A drush make file is similar to an "ant script" and allows us to host just the code that we are developing (Installation Profile and Custom Modules, Features, and Themes) on GitHub. Any user who has Drush installed can then perform a build-out of both the Drupal Core package and various contributed modules hosted on Drupal.org.

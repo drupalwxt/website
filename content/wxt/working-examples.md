@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Working Examples"
+title = "Working Examples (D7)"
 description="To facilitate development with Drupal WxT."
 language = "en"
 tags = [

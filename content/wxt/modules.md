@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Modules for Drupal WxT"
+title = "Modules for Drupal WxT (D7)"
 description="Modules built to implemented functionality for WxT inside Drupal."
 language = "en"
 tags = [

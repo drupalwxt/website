@@ -16,15 +16,15 @@ menu:
       Parent: "wxt"
       Weight: -115
       URL: "/wxt/releases/"
-    - Name: "Makefiles for WxT"
+    - Name: "Makefiles for WxT (D7)"
       Parent: "wxt"
       Weight: -110
       URL: "/wxt/make/"
-    - Name: "Modules for WxT"
+    - Name: "Modules for WxT (D7)"
       Parent: "wxt"
       Weight: -110
       URL: "/wxt/modules/"
-    - Name: "Working Examples"
+    - Name: "Working Examples (D7)"
       Parent: "wxt"
       Weight: -110
       URL: "/wxt/working-examples/"
@@ -32,6 +32,30 @@ menu:
       Parent: "wxt"
       Weight: -100
       URL: "/wxt/"
+    - Name: "Workflow (D8)"
+      Weight: -105
+      Identifier: "workflow"
+      URL: "/workflow/"
+    - Name: "Composer for Drupal 8"
+      Parent: "workflow"
+      Weight: -110
+      URL: "/workflow/composer/"
+    - Name: "WxT Workflow"
+      Parent: "workflow"
+      Weight: -110
+      URL: "/workflow/wxt/"
+    - Name: "Tips and Tricks"
+      Parent: "workflow"
+      Weight: -110
+      URL: "/workflow/tips/"
+    - Name: "Frequently Asked Questions"
+      Parent: "workflow"
+      Weight: -110
+      URL: "/workflow/faq/"
+    - Name: "All Workflow Entries"
+      Parent: "workflow"
+      Weight: -100
+      URL: "/workflow/"
     - Name: "Architecture"
       Weight: -100
       Identifier: "architecture"
@@ -56,35 +80,18 @@ menu:
       Parent: "architecture"
       Weight: -110
       URL: "/architecture/drush-make/"
-    - Name: "Community"
-      Weight: -100
-      Identifier: "community"
-      URL: "/community/"
-    - Name: "Office Hours"
-      Parent: community
-      Weight: -110
-      Identifier: "office-hours"
-      URL: "/community/office-hours/"
     - Name: "Roadmap"
-      Parent: community
+      Parent: "architecture"
       Weight: -110
       Identifier: "roadmap"
-      URL: "/community/roadmap/"
-    - Name: "All Community Entries"
-      Parent: "community"
-      Weight: -100
-      URL: "/community/"
+      URL: "/architecture/roadmap/"
     - Name: "Blog"
       Weight: -90
       Identifier: "blog"
       URL: "/post/"
-    - Name: "Performance"
-      Weight: -90
-      Identifier: "performance"
-      URL: "/performance/"
 Params:
   Author: "William Hearn"
-  Banner: "Providing succinct information on how to work with Drupal WxT 4.x for the Web Experience Toolkit!"
+  Banner: "Providing succinct information on how to leverage Drupal WxT @ Web Experience Toolkit"
   DateForm: "2006-01-02"
   disqusShortname: "drupalwxt"
   GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"

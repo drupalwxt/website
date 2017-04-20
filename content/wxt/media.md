@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Media Library - Images, Videos and Documents"
+title = "Media Library - Images, Videos and Documents (D7)"
 description="How to use and manage the Media Library."
 language = "en"
 tags = [

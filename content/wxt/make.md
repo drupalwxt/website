@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Makefiles for Drupal WxT"
+title = "Makefiles for Drupal WxT (D7)"
 description="Makefiles which form the building blocks and dependencies for Drupal WxT."
 language = "en"
 tags = [
@@ -9,6 +9,14 @@ tags = [
 date = "2015-01-13T13:10:52-05:00"
 type = "single"
 +++
+
+<div class="alert alert-info">
+<h4>Important</h4>
+<p>These instructions are only valid for Drupal 7. For Drupal 8 workflow please
+consult the <a href="{{< relref "workflow/wxt.md" >}}">Workflow for Drupal 8
+</a></p>
+</div>
+
 
 Drush make turns a makefile into a working Drupal codebase.
 

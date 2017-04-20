@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Tabbed Interface"
+title = "Tabbed Interface (D7)"
 description="How to create and edit a Tabbed Interface bean."
 language = "en"
 tags = [
