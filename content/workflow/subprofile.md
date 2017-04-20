@@ -33,11 +33,13 @@ modules post installation.
 
 ## Implementations
 
-The `Open Data` repository listed below is a good example of a sub installatin
+The `Open Data` repository listed below is a good example of a sub installation
 profile of `WxT` gaining all of its + `Lightning`'s respective functionality as
 an immediate benefit.
 
 - [site-open-data][site-open-data]
+
+## Skeleton
 
 Hopefully soon the [WxT composer project template generator][wxt-project]
 will incorporate support for generating sub installation profiles. Until that

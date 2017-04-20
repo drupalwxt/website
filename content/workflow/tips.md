@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Composer Tips for Drupal"
+title = "Composer tips for Drupal"
 description="Tips for managing Drupal with Composer."
 language = "en"
 tags = [
