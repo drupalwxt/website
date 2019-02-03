@@ -13,7 +13,7 @@ type = "single"
 <div class="alert alert-info">
 <h4>Important</h4>
 <p>These instructions are only valid for Drupal 7. For Drupal 8 workflow please
-consult the <a href="{{< relref "workflow/wxt.md" >}}">Workflow for Drupal 8
+consult the <a href="{{< relref "/workflow/wxt.md" >}}">Workflow for Drupal 8
 </a></p>
 </div>
 

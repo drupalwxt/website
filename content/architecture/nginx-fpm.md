@@ -12,7 +12,7 @@ type = "single"
 
 <div class="alert alert-info">
   <h4>Important</h4>
-  <p>Using Apache? Head on over to our <a href="{{< relref "performance/apache-fpm.md" >}}">Apache + PHP-FPM</a> documentation.</p>
+  <p>Using Apache? Head on over to our <a href="{{< relref "/architecture/apache-fpm.md" >}}">Apache + PHP-FPM</a> documentation.</p>
 </div>
 
 [Nginx][nginx] is event-based, so it does not follow Apache's style of spawning new processes or threads for each web page request. The end result is that even as load increases, memory and CPU usage remain manageable.

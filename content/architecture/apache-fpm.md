@@ -12,7 +12,7 @@ type = "single"
 
 <div class="alert alert-info">
   <h4>Important</h4>
-  <p>Want even more performance? Head on over to our <a href="{{< relref "performance/nginx-fpm.md" >}}">Nginx + PHP-FPM</a> documentation.</p>
+  <p>Want even more performance? Head on over to our <a href="{{< relref "/architecture/nginx-fpm.md" >}}">Nginx + PHP-FPM</a> documentation.</p>
 </div>
 
 [Apache][apache] can achieve a rough parity in performance to a Nginx + PHP-FPM setup. With the added caveat that Apache should be run in either `MPM Event` or `MPM Worker` mode. Please note that the following statement holds true when analyzing performance:

@@ -1,4 +1,4 @@
-# WxT
+# Project
 nbproject/*
 .sass-cache/
 .DS_Store
@@ -8,7 +8,7 @@ build/lib/vendors*
 build/lib/jruby-compiled
 _notes/
 
-# OS generated files #
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -29,3 +29,5 @@ vendor/
 Hugo
 public
 themes/wxt
+static/lib
+static/video

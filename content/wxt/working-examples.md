@@ -32,37 +32,37 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
         <tr>
             <td><a href="http://wet-boew.github.io/themes-dist/theme-base/index-en.html">Base theme</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
-            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
+            <td>Full support via <a href="{{< relref "/architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
             <td>theme-base</td>
         </tr>
         <tr>
             <td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
-            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
+            <td>Full support via <a href="{{< relref "/architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
             <td>GCWeb</td>
         </tr>
         <tr>
             <td><a href="http://wet-boew.github.io/themes-dist/theme-gc-intranet/index-en.html">Government of Canada Intranet theme</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
-            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
+            <td>Full support via <a href="{{< relref "/architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
             <td>theme-gc-intranet</td>
         </tr>
         <tr>
             <td><a href="http://wet-boew.github.io/themes-dist/theme-gcwu-fegc/index-en.html">Government of Canada Web Usability theme</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
-            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
+            <td>Full support via <a href="{{< relref "/architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
             <td>theme-gcwu-fegc</td>
         </tr>
         <tr>
             <td><a href="http://wet-boew.github.io/themes-dist/theme-ogpl/index-en.html">Open Government Platform (OGPL) theme</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
-            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
+            <td>Full support via <a href="{{< relref "/architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
             <td>theme-ogpl</td>
         </tr>
         <tr>
             <td><a href="http://wet-boew.github.io/v4.0-ci/theme/index-en.html">Web Experience Toolkit (WET) theme</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
-            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
+            <td>Full support via <a href="{{< relref "/architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
             <td>theme-wet-boew</td>
         </tr>
     </tbody>
@@ -83,13 +83,13 @@ Note: This list does not represent the full capabilities of the Drupal WxT platf
         <tr>
             <td><a href="http://wet-boew.github.io/v4.0-ci/theme/servermessage-en-fr.html">Maintenance Pages</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
-            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
+            <td>Full support via <a href="{{< relref "/architecture/libraries-api.md" >}}">Libraries API</a> and WetKit Bootstrap theme.</td>
             <td>maintenance</td>
         </tr>
         <tr>
             <td><a href="http://wet-boew.github.io/v4.0-ci/theme/splashpage-en.html">Splash Pages</a></td>
             <td><a href="http://wet-boew.github.io/v4.0-ci/docs/ref/themesstyle-en.html">Themes and style</a></td>
-            <td>Full support via <a href="{{< relref "architecture/libraries-api.md" >}}">Libraries API</a>, Splashify and WetKit Bootstrap theme.</td>
+            <td>Full support via <a href="{{< relref "/architecture/libraries-api.md" >}}">Libraries API</a>, Splashify and WetKit Bootstrap theme.</td>
             <td>splash</td>
         </tr>
     </tbody>
