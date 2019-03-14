@@ -1,4 +1,4 @@
-BaseUrl: "http://drupalwxt.github.io"
+BaseUrl: "https://drupalwxt.github.io"
 ContentDir: "content"
 LayoutDir: "layouts"
 PublishDir: "public"
