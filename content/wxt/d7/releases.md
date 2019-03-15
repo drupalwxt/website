@@ -17,4 +17,5 @@ type = "single"
 made.</p>
 </div>
 
-{{< gh_releases url="https://api.github.com/repos/wet-boew/wet-boew-drupal/releases?prerelease=false" >}}
+
+{{< gh_releases url="https://api.github.com/repos/drupalwxt/wxt/releases?prerelease=false" >}}

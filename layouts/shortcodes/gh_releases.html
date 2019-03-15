@@ -11,13 +11,11 @@
       {{ $j := getJSON $url }}
       {{ range first 15 $j }}
       {{ $p := . }}
-      {{ if in $p.name "7.x-4" }}
       <tr>
           <td><strong>{{ $p.name }}</strong></td>
           <td><strong>{{ $p.created_at }}</strong></td>
           <td>{{ $p.body | markdownify }}</td>
       </tr>
-      {{ end }}
       {{ end }}
     </tbody>
 </table>

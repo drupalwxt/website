@@ -11,14 +11,12 @@
       {{ $url := .Get "url" }}
       {{ range getJSON $url }}
       {{ $p := . }}
-      {{ if in $p.default_branch "7.x-4" }}
       <tr>
           <td><strong>{{ $p.name }}</strong></td>
           <td><a href="{{ $p.html_url }}" target="_blank">{{ $p.full_name }}</a></td>
           <td>{{ $p.description }}</td>
           <td>Size: {{$p.size}} Bytes</td>
       </tr>
-      {{ end }}
       {{ end }}
     </tbody>
 </table>

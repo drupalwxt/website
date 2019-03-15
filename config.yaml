@@ -15,76 +15,23 @@ menu:
     - Name: "Releases for WxT"
       Parent: "wxt"
       Weight: -115
-      URL: "/wxt/releases/"
-    - Name: "Makefiles for WxT (D7)"
+      URL: "/wxt/d8/releases/"
+    - Name: "Modules for WxT"
       Parent: "wxt"
       Weight: -110
-      URL: "/wxt/make/"
-    - Name: "Modules for WxT (D7)"
-      Parent: "wxt"
-      Weight: -110
-      URL: "/wxt/modules/"
-    - Name: "Working Examples (D7)"
-      Parent: "wxt"
-      Weight: -110
-      URL: "/wxt/working-examples/"
+      URL: "/wxt/d8/modules/"
     - Name: "All WxT Entries"
       Parent: "wxt"
       Weight: -100
       URL: "/wxt/"
-    - Name: "Workflow (D8)"
-      Weight: -105
-      Identifier: "workflow"
-      URL: "/workflow/"
-    - Name: "Composer for Drupal 8"
-      Parent: "workflow"
-      Weight: -110
-      URL: "/workflow/composer/"
-    - Name: "WxT Workflow"
-      Parent: "workflow"
-      Weight: -110
-      URL: "/workflow/wxt/"
-    - Name: "Tips and Tricks"
-      Parent: "workflow"
-      Weight: -110
-      URL: "/workflow/tips/"
-    - Name: "Frequently Asked Questions"
-      Parent: "workflow"
-      Weight: -110
-      URL: "/workflow/faq/"
-    - Name: "All Workflow Entries"
-      Parent: "workflow"
-      Weight: -100
-      URL: "/workflow/"
-    - Name: "Architecture"
-      Weight: -100
-      Identifier: "architecture"
-      URL: "/architecture/"
-    - Name: "Content Staging"
-      Parent: "architecture"
-      Weight: -110
-      URL: "/architecture/deployment/"
-    - Name: "All Architecture Entries"
-      Parent: "architecture"
-      Weight: -100
-      URL: "/architecture/"
-    - Name: "Release Cycle / Updates"
-      Parent: "architecture"
-      Weight: -110
-      URL: "/architecture/release-cycle/"
-    - Name: "Libraries API"
-      Parent: "architecture"
-      Weight: -110
-      URL: "/architecture/libraries-api/"
-    - Name: "Drush Make + Site Install"
-      Parent: "architecture"
-      Weight: -110
-      URL: "/architecture/drush-make/"
     - Name: "Roadmap"
-      Parent: "architecture"
-      Weight: -110
+      Weight: -95
       Identifier: "roadmap"
       URL: "/architecture/roadmap/"
+    - Name: "Composer"
+      Weight: -95
+      Identifier: "composer"
+      URL: "/workflow/composer/"
     - Name: "Blog"
       Weight: -90
       Identifier: "blog"
