@@ -16,10 +16,10 @@ menu:
       Parent: "wxt"
       Weight: -115
       URL: "/wxt/d8/releases/"
-    - Name: "Modules for WxT"
+    - Name: "Repositories for WxT"
       Parent: "wxt"
       Weight: -110
-      URL: "/wxt/d8/modules/"
+      URL: "/wxt/d8/repositories/"
     - Name: "All WxT Entries"
       Parent: "wxt"
       Weight: -100
@@ -47,6 +47,11 @@ menu:
       Weight: -95
       Identifier: "github"
       URL: "https://github.com/drupalwxt/wxt/releases"
+    - Name: "Kubernetes"
+      Parent: "install"
+      Weight: -95
+      Identifier: "kubernetes"
+      URL: "https://github.com/drupalwxt/helm-drupalwxt"
     - Name: "Blog"
       Weight: -90
       Identifier: "blog"

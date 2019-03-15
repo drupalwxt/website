@@ -1,7 +1,7 @@
 +++
 draft = false
-title = "Modules for Drupal WxT"
-description="Modules built to implemented functionality for WxT inside Drupal."
+title = "Repositories for Drupal WxT"
+description="Repositories built to extend functionality for WxT."
 language = "en"
 tags = [
     "wxt",
