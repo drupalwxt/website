@@ -28,10 +28,25 @@ menu:
       Weight: -95
       Identifier: "roadmap"
       URL: "/architecture/roadmap/"
-    - Name: "Composer"
+    - Name: "Install"
       Weight: -95
-      Identifier: "composer"
-      URL: "/workflow/composer/"
+      Identifier: "install"
+      URL: "/wxt/"
+    - Name: "Docker"
+      Parent: "install"
+      Weight: -95
+      Identifier: "docker"
+      URL: "https://hub.docker.com/r/drupalwxt/site-wxt"
+    - Name: "Drupal"
+      Parent: "install"
+      Weight: -95
+      Identifier: "drupal"
+      URL: "https://drupal.org/project/wxt"
+    - Name: "GitHub"
+      Parent: "install"
+      Weight: -95
+      Identifier: "github"
+      URL: "https://github.com/drupalwxt/wxt/releases"
     - Name: "Blog"
       Weight: -90
       Identifier: "blog"
