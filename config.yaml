@@ -57,7 +57,7 @@ Params:
   DateForm: "2006-01-02"
   disqusShortname: "drupalwxt"
   GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
-  Github: "wet-boew/wet-boew-drupal"
+  Github: "drupalwxt/wxt"
   Search: "drupalwxt.github.io"
   ShowRelatedPost: True
   Slogan: "Documentation Site for Drupal WxT"
