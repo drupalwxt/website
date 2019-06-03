@@ -24,6 +24,14 @@ menu:
       Parent: "wxt"
       Weight: -100
       URL: "/wxt/"
+    - Name: "Documentation"
+      Weight: -95
+      Identifier: "docs"
+      URL: "/docs/"
+    - Name: "Theme Workflow"
+      Parent: "docs"
+      Weight: -115
+      URL: "/docs/theme/"
     - Name: "Roadmap"
       Weight: -95
       Identifier: "roadmap"
