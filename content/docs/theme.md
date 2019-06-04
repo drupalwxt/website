@@ -1,13 +1,13 @@
 +++
 draft = false
 title = "Theme Workflow"
-description="Questions related to the theme workflow."
+description="Documentation about the theme workflow."
 language = "en"
 tags = [
-    "releases",
+    "docs",
     "wxt",
 ]
-date = "2019-02-26T13:10:50-05:00"
+date = "2019-06-03T15:10:50-05:00"
 type = "single"
 +++
 

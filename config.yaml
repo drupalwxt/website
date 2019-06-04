@@ -28,6 +28,10 @@ menu:
       Weight: -95
       Identifier: "docs"
       URL: "/docs/"
+    - Name: "Coding Standards"
+      Parent: "docs"
+      Weight: -120
+      URL: "/docs/code/"
     - Name: "Theme Workflow"
       Parent: "docs"
       Weight: -115
