@@ -32,6 +32,10 @@ menu:
       Parent: "docs"
       Weight: -120
       URL: "/docs/code/"
+    - Name: "Modules Selection"
+      Parent: "docs"
+      Weight: -115
+      URL: "/docs/modules/"
     - Name: "Theme Workflow"
       Parent: "docs"
       Weight: -115
