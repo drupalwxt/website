@@ -13,13 +13,13 @@ type = "single"
 
 ## Background
 
-Drupal WxT complies with the Drupal Coding Standards and runs automated tests on ever commit that gets merged into the working directory.
+Drupal WxT complies with the Drupal Coding Standards and runs automated tests on every commit that gets merged into the working repository.
 
-PHP CodeSniffer is executed on our [phpcs.xml][phpcs] file which is only slightly different then the one which resides in Drupal core.
+PHP CodeSniffer is executed on our customized [phpcs.xml][phpcs] file which is only slightly different from the one which resides in Drupal core.
 
 ## PHPCS
 
-The following is the literal commands being executed in our continuous integration builds under Travis CI.
+The following is the literal command(s) being executed in our continuous integration builds running under Travis CI.
 
 ```php
 ./docker/bin/phpcs --standard=/var/www/html/core/phpcs.xml \
@@ -44,6 +44,6 @@ The following is the literal commands being executed in our continuous integrati
             /var/www/html/profiles/wxt
 ```
 
-> Note: that the whole WxT installation profile is scanned as well as related contribs (WxT Bootstrap, WxT Library) which existed outside the profile repository.
+> Note: The whole WxT installation profile is scanned as well as all custom WxT modules (WxT Bootstrap and WxT Library) which exist outside the profile repository.
 
 [phpcs]:        https://github.com/drupalwxt/site-wxt/blob/8.x/docker/conf/phpcs.xml

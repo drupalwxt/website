@@ -4,11 +4,12 @@ title = "Composer FAQ"
 description="Frequently asked questions for Composer workflow."
 language = "en"
 tags = [
-    "faq",
+    "docs",
+	"faq",
+    "wxt",
 ]
-date = "2017-04-18T08:30:00-05:00"
-type = "workflow"
-menu = ["workflow"]
+date = "2019-06-03T15:10:50-05:00"
+type = "single"
 +++
 
 ## Should I commit the contributed modules downloaded?

@@ -24,30 +24,20 @@ menu:
       Parent: "wxt"
       Weight: -100
       URL: "/wxt/"
-    - Name: "Documentation"
-      Weight: -95
-      Identifier: "docs"
-      URL: "/docs/"
-    - Name: "Coding Standards"
-      Parent: "docs"
-      Weight: -120
-      URL: "/docs/code/"
-    - Name: "Modules Selection"
-      Parent: "docs"
-      Weight: -115
-      URL: "/docs/modules/"
-    - Name: "Theme Workflow"
-      Parent: "docs"
-      Weight: -115
-      URL: "/docs/theme/"
     - Name: "Roadmap"
-      Weight: -95
+      Parent: "wxt"
+      Weight: -110
       Identifier: "roadmap"
-      URL: "/architecture/roadmap/"
+      URL: "/wxt/d8/roadmap/"
     - Name: "Install"
       Weight: -95
       Identifier: "install"
       URL: "/wxt/"
+    - Name: "Composer Project"
+      Parent: "install"
+      Weight: -95
+      Identifier: "composer"
+      URL: "https://github.com/drupalwxt/site-wxt"
     - Name: "Docker"
       Parent: "install"
       Weight: -95
@@ -68,8 +58,36 @@ menu:
       Weight: -95
       Identifier: "kubernetes"
       URL: "https://github.com/drupalwxt/helm-drupalwxt"
-    - Name: "Blog"
+    - Name: "Documentation"
       Weight: -90
+      Identifier: "docs"
+      URL: "/docs/"
+    - Name: "Coding Standards"
+      Parent: "docs"
+      Weight: -120
+      URL: "/docs/code/"
+    - Name: "Composer Workflow"
+      Parent: "docs"
+      Weight: -120
+      URL: "/docs/composer/"
+    - Name: "Frequently Asked Questions"
+      Parent: "docs"
+      Weight: -120
+      URL: "/docs/faq/"
+    - Name: "Modules Selection"
+      Parent: "docs"
+      Weight: -115
+      URL: "/docs/modules/"
+    - Name: "Sub Installation Profile"
+      Parent: "docs"
+      Weight: -115
+      URL: "/docs/subprofile/"
+    - Name: "Theme Workflow"
+      Parent: "docs"
+      Weight: -115
+      URL: "/docs/theme/"
+    - Name: "Blog"
+      Weight: -85
       Identifier: "blog"
       URL: "/post/"
 Params:

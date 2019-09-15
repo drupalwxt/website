@@ -4,14 +4,15 @@ title = "Composer workflow for Drupal 8"
 description="Composer workflow for Drupal 8."
 language = "en"
 tags = [
+    "docs",
+	"faq",
     "wxt",
 ]
-date = "2017-04-18T08:30:00-05:00"
-type = "workflow"
-menu = ["workflow"]
+date = "2019-06-03T15:10:50-05:00"
+type = "single"
 +++
 
-> Note: The following guide is largely meant for Drupal 8 WxT installations.
+> **Note**: The following guide is largely just a high level overview for Drupal 8 WxT installations.
 
 ## Overview
 
@@ -29,8 +30,7 @@ clear what audit-able surface is.
 
 For more information on this please see a recent talk given at `DrupalGov`:
 
-* [A blueprint for a secure Drupal 8 platform and build process with
- composer][composer-secure]
+* [A blueprint for a secure Drupal 8 platform and build process with composer][composer-secure]
 
 ## Composer Project Templates
 
@@ -42,8 +42,7 @@ Drupal distributions through issuing just a few composer commands.
 First you need to [install composer][composer-install].
 
 > Note: The instructions below refer to the [global composer installation][composer-global].
-You might need to replace `composer` with `php composer.phar` (or similar)
-for your setup.
+You might need to replace `composer` with `php composer.phar` (or similar) for your setup.
 
 After that you can create the appropriate project:
 
@@ -132,7 +131,6 @@ When installing the given `composer.json` some tasks are taken care of:
 * Latest version of `Drush` is installed locally for use at `vendor/bin/drush`
 * Latest version of `DrupalConsole` is installed locally for use at
 `vendor/bin/drupal`
-* Installs optional `Drupal Scaffold for Docker` composer plugin
 
 ## Updating Drupal Core
 
@@ -151,9 +149,6 @@ new release of Drupal core.
     ├── html/                           --> web server root directory
     ├── files_private/                  --> files ignored by git
     ├── drush/
-    ├── docker-compose.yml              --> optional: Docker Scaffold Plugin
-    ├── docker-compose-ci.yml           --> optional: Docker Scaffold Plugin
-    ├── docker/                         --> optional: Docker Scaffold Plugin
     ├── composer.lock                   --> dependency manager
     ├── composer.json                   --> pinned dependencies
     ├── README.md
@@ -162,28 +157,6 @@ new release of Drupal core.
     ├── .gitlab-ci.yml
     └── vendor/                         --> composer packages
 ```
-
-## Implementations
-
-Currently there are a few public GitHub projects leveraging the composer
-project workflow provided by `WxT`. Of interest is the Open Data project which
-houses its own install profile itself a sub-profile of `WxT`.
-
-- [site-wxt][site-wxt]
-- [site-open-data][site-open-data]
-
-## Deployer integration with Composer
-
-One of the great things about `Composer` is the rich integration it provides
-deployment tools such as [Deployer][deployer] which is a popular deployment
-tool written in PHP with support for popular frameworks like Drupal out of the
-box. It largely relies on `Composer` to do the heavy lifting.
-
-If you are interesting on what a deployment would look like to a server, along
-with a notification to slack please consult the following links:
-
-- [WxT][deploy-wxt]
-- [Open Data][deploy-od]
 
 ## Additional Resources
 
