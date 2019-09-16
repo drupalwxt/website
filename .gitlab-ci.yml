@@ -1,9 +1,9 @@
-image: registry.gitlab.com/pages/hugo:0.53
+image: registry.gitlab.com/pages/hugo:0.58.2
 
 test:
   script:
   - apk --update add git nodejs nodejs-npm
-  - cd themes && git clone https://github.com/MunifTanjim/minimo.git minimo
+  - cd themes && git clone https://github.com/wet-boew/wet-boew-hugo.git wxt
   - cd ..
   - hugo
   except:
@@ -12,7 +12,7 @@ test:
 pages:
   script:
   - apk --update add git nodejs nodejs-npm
-  - cd themes && git clone https://github.com/MunifTanjim/minimo.git minimo
+  - cd themes && git clone https://github.com/wet-boew/wet-boew-hugo.git wxt
   - cd ..
   - hugo
   artifacts:

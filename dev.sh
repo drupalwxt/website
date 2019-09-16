@@ -19,6 +19,6 @@ else
     cd ..
 fi
 
-cd wxt && bower install && cd ../..
+cd wxt && yarn install && cd ../..
 hugo server --theme=$LOCALREPO \
             --watch

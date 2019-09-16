@@ -5,7 +5,7 @@ node_js:
 
 env:
   global:
-    - HUGO_VERSION=0.53
+    - HUGO_VERSION=0.58.2
     - COMMIT_MSG="Commit ${TRAVIS_COMMIT}"
 
 before_install:
@@ -15,12 +15,12 @@ before_install:
   - cp hugo $HOME/bin/hugo
 
 install:
-  - npm install -qg bower grunt-cli
+  - npm install -qg grunt-cli
   - git config --global user.email "${GIT_EMAIL}"
   - git config --global user.name "${GIT_NAME}"
 
 script:
   - cd themes
   - git clone https://github.com/wet-boew/wet-boew-hugo.git wxt
-  - cd wxt && bower install && cd ../..
+  - cd wxt && yarn install && cd ../..
   - ./deploy.sh "${COMMIT_MSG}" > /dev/null 2>&1
