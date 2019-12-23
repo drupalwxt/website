@@ -6,13 +6,13 @@ language = "en"
 tags = [
     "performance",
 ]
-date = "2015-01-13T13:10:52-05:00"
+date = "2019-01-15T15:15:15-05:00"
 type = "single"
 +++
 
-There are a variety of Databases you can use with Drupal as listed in the [Drupal requirements][drupal_req] section. However only MySQL + PostgreSQL are tested extensively with Drupal WxT and the various contrib modules it leverages.
+There are a variety of Databases you can use with Drupal as listed in the [Drupal requirements][drupal_req] section. However only MySQL + PostgreSQL are tested extensively with Drupal WxT and the various contrib modules it provides.
 
-Additionally it has been our experience that Microsoft SQL Server is possible but with many caveats. While Oracle support itself should not be attempted due to a outdated PDO Driver.
+> **Note**: It has been our experience that Microsoft SQL Server is possible but with many caveats. While Oracle support itself should not be attempted due to a outdated PDO Driver.
 
 ## PostgreSQL
 
@@ -20,12 +20,10 @@ Additionally it has been our experience that Microsoft SQL Server is possible bu
 
 ## MySQL
 
-[MySQL][mysql] is the one of the three most commonly used relational database management systems in use on the Internet and powers well known sites such as Flick, Youtube, Wikipedia, Google, Facebook, and Twitter. MySQL is an open-source solution that can be compiled or installed from a binary package and is available for multiple operating systems.
-
-MySQL was acquired by Oracle Corporation in 2008, and Oracle now offers several versions. There is a community open-source edition, as well as a licensed Enterprise Edition and a Cluster Edition that offer the same capabilities as the community edition, but with additional features and support. The Enterprise Edition includes additional features such as replication, additional thread scaling, and external security authentication for Windows Active Directory. The Cluster Edition offers database partitioning across servers for scalability and failover capabilities for high availability.
+[MySQL][mysql] is the one of the three most commonly used relational database management systems in use on the Internet and powers well known sites such as Flick, Youtube, Wikipedia, Google, Facebook, and Twitter. MySQL is an open-source solution that can be compiled or installed from a binary package and is available for multiple operating systems. MySQL was acquired by Oracle Corporation in 2008, and Oracle now offers several versions. There is a community open-source edition, as well as a licensed Enterprise Edition and a Cluster Edition that offer the same capabilities as the community edition, but with additional features and support. The Enterprise Edition includes additional features such as replication, additional thread scaling, and external security authentication for Windows Active Directory. The Cluster Edition offers database partitioning across servers for scalability and failover capabilities for high availability.
 
 <!-- Links Referenced -->
 
 [drupal_req]:       https://www.drupal.org/requirements
 [mysql]:            https://mysql.com
-[postgresql]:       http://postgresql.org
+[postgresql]:       https://postgresql.org

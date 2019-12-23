@@ -6,7 +6,7 @@ language = "en"
 tags = [
     "wxt"
 ]
-date = "2019-01-13T13:10:52-05:00"
+date = "2019-12-23T10:25:15-05:00"
 type = "single"
 +++
 
@@ -18,7 +18,9 @@ The Drupal WxT distribution is a web content management system which assists in 
 
 There are a lot of features inherently provided by Drupal WxT. However there are a few that have been designated as mandatory to support and as such have shaped the architecture of the distribution.
 
-<table id="components-theme" class="wb-tables table table-striped table-hover" data-wb-tables='{"columnDefs": [ { "visible": true, "targets": [ 3 ] } ], "lengthMenu": [[10, 25, -1], [10, 25, "All"]], "pageLength": 10 }'>
+These features are discussed the table below:
+
+<table id="components-theme" class="wb-tables table table-striped table-hover" data-wb-tables='{"columnDefs": [ { "visible": true, "targets": [ 3 ] } ], "lengthMenu": [[10, 25, -1], [15, 25, "All"]], "pageLength": 15 }'>
     <thead>
         <tr>
             <th>Priority #</th>
@@ -32,31 +34,31 @@ There are a lot of features inherently provided by Drupal WxT. However there are
             <td>1</td>
             <td>Accessibility</td>
             <td>Functional</td>
-            <td>Accessibility and strict markup enforced by <a href="http://github.com/wet-boew/wet-boew">WxT</a>.</td>
+            <td>Accessibility and strict markup enforced by <a href="https://github.com/wet-boew/wet-boew">WxT</a>.</td>
         </tr>
         <tr class="success">
             <td>2</td>
             <td>Bootstrap</td>
             <td>Functional</td>
-            <td>Bootstrap integration throughout the entire Front + Back End.</td>
+            <td>Leverages the <a href="https://drupal.org/project/bootstrap">Bootstrap</a> base theme to adhere to WxT markup.</td>
         </tr>
         <tr class="success">
             <td>3</td>
-            <td><a href="/wxt/content-moderation/">Content Moderation</a></td>
+            <td>Streamlined Authoring Experiences</td>
             <td>Functional</td>
-            <td>A proper and extendable content workflow must be established.</td>
+            <td>Empower editorial teams on building powerful layouts, media, content and experiences.</td>
         </tr>
         <tr class="success">
             <td>4</td>
-            <td><a href="/wxt/deployment">Content Staging / Deployment</a></td>
-            <td>Functional</td>
-            <td>Content should be deployable allowing for content to be sent reliably across drupal platforms.</td>
+            <td>Content Staging / Deployment</td>
+            <td>Development</td>
+            <td>Content should be deployed with Restful API's across Drupal platforms.</td>
         </tr>
         <tr class="success">
             <td>5</td>
             <td>WxT jQuery Framework</td>
             <td>Functional</td>
-            <td>Maintain template adherance and tightly couple with the functionality provided by by WxT.</td>
+            <td>Adhere to the latest version 2.0 of the <a href="https://wet-boew.github.io/themes-dist/GCWeb/index-en.html">C&IA Specification</a> released on January 2019.</td>
         </tr>
         <tr class="success">
             <td>6</td>
@@ -68,31 +70,31 @@ There are a lot of features inherently provided by Drupal WxT. However there are
             <td>7</td>
             <td>Migration</td>
             <td>Functional</td>
-            <td>Provide an suite of scripts allowing bulk migration of content from a variety of platforms into Drupal.</td>
+            <td>Scripts allowing for bulk migration of content from a variety of platforms into Drupal.</td>
         </tr>
         <tr class="success">
             <td>8</td>
             <td>Multilingual</td>
             <td>Functional</td>
-            <td>Provide multilingual support throughout the platform.</td>
+            <td>Provide multilingual support for english and french throughout the entire platform.</td>
         </tr>
         <tr class="success">
             <td>9</td>
             <td>Performance</td>
             <td>Functional</td>
-            <td>All custom code and when possible contributed modules should go through testing with XHProf + XHGui.</td>
+            <td>All custom code has went through testing with XHProf + XHGui.</td>
         </tr>
         <tr class="success">
             <td>10</td>
             <td>Universal Unique Identifiers</td>
             <td>Functional</td>
-            <td>All entities should be associated with UUID to allow for data to be reliably stored, accessed and deployed.</td>
+            <td>All entities should be associated with Universally Unique Identifiers.</td>
         </tr>
         <tr class="success">
             <td>11</td>
             <td>Licensing</td>
             <td>Functional</td>
-            <td>All aspects of the codebase including third party libraries must conform to GPLv3.</td>
+            <td>All aspects of the codebase including third party libraries must be MIT / GPL compatible.</td>
         </tr>
     </tbody>
 </table>

@@ -8,11 +8,11 @@ tags = [
     "faq",
     "wxt",
 ]
-date = "2019-06-03T15:10:50-05:00"
+date = "2019-12-15T15:15:15-05:00"
 type = "single"
 +++
 
-> **Note**: The following guide is largely just a high level overview for Drupal 8 WxT installations.
+> **Note**: The following guide is largely just a high level overview for Drupal 8 WxT installation(s).
 
 ## Overview
 
@@ -167,6 +167,8 @@ new release of Drupal core.
 - [Composer Parallel Install][composer-parallel]
 
 
+[ci-gitlab-ci]:                 .gitlab-ci.yml
+[ci-travis-ci]:                 .travis.yml
 [composer-drupal]:              https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies
 [composer-install]:             https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 [composer-global]:              https://getcomposer.org/doc/00-intro.md#globally
@@ -175,8 +177,6 @@ new release of Drupal core.
 [composer-secure]:              https://www.youtube.com/watch?v=g_EO-3dEbio
 [composer-troubleshooting]:     https://www.drupal.org/docs/develop/using-composer/troubleshooting-composer
 [composer-using]:               https://www.drupal.org/docs/develop/using-composer
-[ci-gitlab-ci]:                 .gitlab-ci.yml
-[ci-travis-ci]:                 .travis.yml
 [deploy-od]:                    https://github.com/open-data/site-open-data/blob/8.x/docker/deploy.php
 [deploy-wxt]:                   https://github.com/drupalwxt/site-wxt/blob/8.x/docker/deploy.php
 [deployer]:                     https://github.com/deployphp/deployer

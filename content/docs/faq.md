@@ -1,20 +1,20 @@
 +++
 draft = false
-title = "Composer FAQ"
-description="Frequently asked questions for Composer workflow."
+title = "Frequently Asked Questions"
+description="Frequently asked questions for Drupal WxT."
 language = "en"
 tags = [
     "docs",
     "faq",
     "wxt",
 ]
-date = "2019-06-03T15:10:50-05:00"
+date = "2019-12-20T15:15:15-05:00"
 type = "single"
 +++
 
 ## Should I commit the contributed modules downloaded?
 
-Composer strongly recommends **against**. However, while they provide
+Composer strongly recommends **against** this practice. However, while they provide
 [argumentation against][composer-dep] there are also known workarounds if a
 project decides to do it anyway.
 
@@ -51,6 +51,7 @@ request is often a better solution), you can do so with the
 
 To add a patch to drupal module foobar insert the patches section in the extra
 section of composer.json:
+
 ```json
 "extra": {
     "patches": {

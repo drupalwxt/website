@@ -107,6 +107,9 @@ Params:
   Slogan: "Documentation Site for Drupal WxT"
   SyntaxHighlightTheme: "monokai.min.css"
   Theme: "theme-wet-boew"
+ignoreFiles: [
+    "sample.md$",
+]
 Indexes:
   tag: "tags"
 permalinks:

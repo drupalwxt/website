@@ -7,13 +7,13 @@ tags = [
     "releases",
     "wxt",
 ]
-date = "2019-02-26T13:10:50-05:00"
+date = "2019-12-23T10:15:15-05:00"
 type = "single"
 +++
 
 <div class="alert alert-info">
 <h4>Important</h4>
-<p>Expect security releases to appear here within 24-72 hours of being reported upstream.</p>
+<p>We try our best to have security releases of Drupal Core within 24-72 hours of being made available on <a href="https://www.drupal.org/project/drupal">drupal.org</a>.</p>
 </div>
 
 {{< gh_releases url="https://api.github.com/repos/drupalwxt/wxt/releases?prerelease=false" >}}
