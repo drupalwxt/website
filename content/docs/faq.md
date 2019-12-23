@@ -5,7 +5,7 @@ description="Frequently asked questions for Composer workflow."
 language = "en"
 tags = [
     "docs",
-	"faq",
+    "faq",
     "wxt",
 ]
 date = "2019-06-03T15:10:50-05:00"

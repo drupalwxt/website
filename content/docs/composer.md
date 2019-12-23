@@ -5,7 +5,7 @@ description="Composer workflow for Drupal 8."
 language = "en"
 tags = [
     "docs",
-	"faq",
+    "faq",
     "wxt",
 ]
 date = "2019-06-03T15:10:50-05:00"

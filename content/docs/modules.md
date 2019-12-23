@@ -45,11 +45,11 @@ Above and beyond the modules we directly get as a consequence of our dependence 
 
 > **Note**: We will document more of the modules chosen shortly. In the interim, you can also see our [composer.json][composer] file.
 
-[composer]:       https://git.drupalcode.org/project/wxt/blob/8.x-2.x/composer.json#L224
+[composer]:       https://git.drupalcode.org/project/wxt/blob/8.x-3.x/composer.json
 [lightning]:      https://github.com/acquia/lightning
 [phpcs]:          https://github.com/drupalwxt/site-wxt/blob/8.x/docker/conf/phpcs.xml
 [wxt]:            https://github.com/drupalwxt/wxt
 [wxt_bootstrap]:  https://github.com/drupalwxt/wxt_bootstrap
 [wxt_library]:    https://github.com/drupalwxt/wxt_library
-[wxt_modules]:    https://github.com/drupalwxt/wxt/tree/8.x-2.x/modules/custom
-[wxt_extend]:     https://github.com/drupalwxt/wxt/tree/8.x-2.x/modules/custom/wxt_ext
+[wxt_modules]:    https://github.com/drupalwxt/wxt/tree/8.x-3.x/modules/custom
+[wxt_extend]:     https://github.com/drupalwxt/wxt/tree/8.x-3.x/modules/custom/wxt_ext
