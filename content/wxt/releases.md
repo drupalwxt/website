@@ -16,4 +16,4 @@ type = "single"
 <p>We try our best to have security releases of Drupal Core within 24-72 hours of being made available on <a href="https://www.drupal.org/project/drupal">drupal.org</a>.</p>
 </div>
 
-{{< gh_releases url="https://api.github.com/repos/drupalwxt/wxt/releases?prerelease=false" >}}
+{{< gh_releases url="https://api.github.com/repos/drupalwxt/wxt/releases?prerelease=true" >}}

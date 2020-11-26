@@ -12,4 +12,4 @@ type = "single"
 
 The following table is a list of all the repositories that are housed under the <a href="https://github.com/drupalwxt">DrupalWxT</a> organization on **GitHub**.
 
-{{< gh_repos url="https://api.github.com/users/drupalwxt/repos" branch="7.x-4.x" site="drupal.org/project" >}}
+{{< gh_repos url="https://api.github.com/users/drupalwxt/repos" site="drupal.org/project" >}}

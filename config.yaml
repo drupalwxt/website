@@ -15,20 +15,30 @@ menu:
     - Name: "Releases for WxT"
       Parent: "wxt"
       Weight: -115
-      URL: "/wxt/d8/releases/"
+      URL: "/wxt/releases/"
     - Name: "Repositories for WxT"
       Parent: "wxt"
       Weight: -110
-      URL: "/wxt/d8/repositories/"
-    - Name: "All WxT Entries"
+      URL: "/wxt/repositories/"
+    - Name: "WxT Minimal Install"
+      Parent: "wxt"
+      Weight: -105
+      Identifier: "minimalinstall"
+      URL: "https://www.drupal.org/project/wxt/issues/3182208"
+    - Name: "Upgrade Path from 3.0.x -> 4.0.x"
       Parent: "wxt"
       Weight: -100
-      URL: "/wxt/"
+      Identifier: "upgradepath"
+      URL: "https://www.drupal.org/project/wxt/issues/3182648"
     - Name: "Roadmap"
       Parent: "wxt"
-      Weight: -110
+      Weight: -95
       Identifier: "roadmap"
-      URL: "/wxt/d8/roadmap/"
+      URL: "https://www.drupal.org/project/wxt/issues/3182977"
+    - Name: "All WxT Entries"
+      Parent: "wxt"
+      Weight: -90
+      URL: "/wxt/"
     - Name: "Installation"
       Weight: -95
       Identifier: "install"
