@@ -14,13 +14,13 @@ Our documentation site for Drupal WxT is powered by [Hugo][hugo] (a static site 
 
 This allows for contributors who feel the documentation is lacking in certain areas to simply perform a pull request and submit a markdown file  alongside with the appropriate front matter (metadata about the content).
 
-Should the pull request be accepted the code will automatically be pushed to the live website via [Travis CI][travis-ci] and published to [drupalwxt.github.io][drupalwxt].
+Should the pull request be accepted the code will automatically be pushed to the live website via [GitHub Actions][github-ci] and published to [drupalwxt.github.io][drupalwxt].
 
 For more information on how to contribute to the documentation site please consult the [README.md][readme] file.
 
 <!-- Links Referenced -->
 
-[drupalwxt]:    https://drupalwxt.github.io
-[hugo]:         https://gohugo.io/
-[readme]:       https://github.com/drupalwxt/website/blob/master/README.md
-[travis-ci]:    https://travis-ci.org
+[drupalwxt]:      https://drupalwxt.github.io
+[github-actions]: https://github.com/drupalwxt/wxt/actions
+[hugo]:           https://gohugo.io/
+[readme]:         https://github.com/drupalwxt/website/blob/master/README.md

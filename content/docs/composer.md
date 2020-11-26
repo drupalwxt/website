@@ -168,7 +168,6 @@ new release of Drupal core.
 
 
 [ci-gitlab-ci]:                 .gitlab-ci.yml
-[ci-travis-ci]:                 .travis.yml
 [composer-drupal]:              https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies
 [composer-install]:             https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 [composer-global]:              https://getcomposer.org/doc/00-intro.md#globally
@@ -185,6 +184,4 @@ new release of Drupal core.
 [lightning-project]:            https://github.com/acquia/lightning-project
 [site-open-data]:               https://github.com/open-data/site-open-data
 [site-wxt]:                     https://github.com/drupalwxt/site-wxt
-[travisci-site-open-data]:      https://travis-ci.org/open-data/site-open-data
-[travisci-site-wxt]:            https://travis-ci.org/drupalwxt/site-wxt
 [wxt-project]:                  https://github.com/drupalwxt/wxt-project

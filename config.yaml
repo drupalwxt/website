@@ -29,40 +29,60 @@ menu:
       Weight: -110
       Identifier: "roadmap"
       URL: "/wxt/d8/roadmap/"
-    - Name: "Install"
+    - Name: "Installation"
       Weight: -95
       Identifier: "install"
       URL: "/wxt/"
-    - Name: "Composer Template"
-      Parent: "install"
-      Weight: -100
-      Identifier: "project-template"
-      URL: "https://github.com/drupalwxt/wxt-project"
-    - Name: "Composer Project"
-      Parent: "install"
-      Weight: -95
-      Identifier: "composer"
-      URL: "https://github.com/drupalwxt/site-wxt"
-    - Name: "Drupal Tarball"
+    - Name: "Installation Profile"
       Parent: "install"
       Weight: -90
       Identifier: "drupal"
       URL: "https://drupal.org/project/wxt"
-    - Name: "GitHub Tarball"
+    - Name: "Composer Project"
       Parent: "install"
-      Weight: -90
-      Identifier: "github"
-      URL: "https://github.com/drupalwxt/wxt/releases"
-    - Name: "Docker"
+      Weight: -100
+      Identifier: "composer"
+      URL: "https://github.com/drupalwxt/site-wxt"
+    - Name: "Composer Project Template"
       Parent: "install"
-      Weight: -85
-      Identifier: "docker"
-      URL: "https://hub.docker.com/r/drupalwxt/site-wxt"
-    - Name: "Kubernetes"
+      Weight: -100
+      Identifier: "project-template"
+      URL: "https://github.com/drupalwxt/wxt-project"
+    - Name: "Helm Chart for Kubernetes"
       Parent: "install"
-      Weight: -85
+      Weight: -95
       Identifier: "kubernetes"
       URL: "https://github.com/drupalwxt/helm-drupalwxt"
+    - Name: "Docker Containers"
+      Parent: "install"
+      Weight: -90
+      Identifier: "docker"
+      URL: "https://hub.docker.com/r/drupalwxt/site-wxt"
+    - Name: "Drupal Repository"
+      Parent: "install"
+      Weight: -85
+      Identifier: "drupal"
+      URL: "https://drupal.org/project/wxt"
+    - Name: "Issue Queue"
+      Parent: "install"
+      Weight: -80
+      Identifier: "issues"
+      URL: "https://drupal.org/project/issues/wxt"
+    - Name: "CHANGELOG.md"
+      Parent: "install"
+      Weight: -75
+      Identifier: "changelog"
+      URL: "https://github.com/drupalwxt/wxt/blob/4.0.x/CHANGELOG.md"
+    - Name: "GitHub Actions"
+      Parent: "install"
+      Weight: -70
+      Identifier: "actions"
+      URL: "https://github.com/drupalwxt/wxt/actions"
+    - Name: "GitHub Tarball"
+      Parent: "install"
+      Weight: -65
+      Identifier: "tarball"
+      URL: "https://github.com/drupalwxt/wxt/releases"
     - Name: "Documentation"
       Weight: -90
       Identifier: "docs"
@@ -136,3 +156,7 @@ module :
           target: archetypes
         - source : node_modules/@bower_components
           target : static/lib
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

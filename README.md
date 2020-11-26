@@ -12,5 +12,5 @@ Please consult the WxT theme [README.md][readme] file for further instructions.
 <!-- Links Referenced -->
 
 [readme]:       https://raw.githubusercontent.com/wet-boew/wet-boew-hugo/master/README.md
-[ci]:           https://travis-ci.org/drupalwxt/website
-[ci-badge]:     https://travis-ci.org/drupalwxt/website.svg?branch=master
+[ci]:           https://github.com/drupalwxt/wxt
+[ci-badge]:     https://github.com/drupalwxt/wxt/workflows/build/badge.svg
