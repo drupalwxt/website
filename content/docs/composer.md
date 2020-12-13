@@ -61,7 +61,7 @@ composer create-project acquia/lightning-project site-name
 ### WxT (distribution) <span class="fa fa-star"></span>
 
 ```sh
-composer create-project drupalwxt/wxt-project:8.x-dev site-name
+composer create-project drupalwxt/wxt-project:4.0.x-dev site-name
 ```
 
 You will notice that `WxT` has its own composer project template listed above

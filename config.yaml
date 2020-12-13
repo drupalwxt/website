@@ -35,9 +35,14 @@ menu:
       Weight: -95
       Identifier: "roadmap"
       URL: "https://www.drupal.org/project/wxt/issues/3182977"
-    - Name: "All WxT Entries"
+    - Name: "Subprofile install of modules"
       Parent: "wxt"
       Weight: -90
+      Identifier: "subprofile"
+      URL: "https://www.drupal.org/project/wxt/issues/3188088"
+    - Name: "All WxT Entries"
+      Parent: "wxt"
+      Weight: -85
       URL: "/wxt/"
     - Name: "Installation"
       Weight: -95
@@ -45,8 +50,8 @@ menu:
       URL: "/wxt/"
     - Name: "Installation Profile"
       Parent: "install"
-      Weight: -90
-      Identifier: "drupal"
+      Weight: -105
+      Identifier: "installprofile"
       URL: "https://drupal.org/project/wxt"
     - Name: "Composer Project"
       Parent: "install"

@@ -7,7 +7,7 @@ tags = [
     "docs",
     "wxt",
 ]
-date = "2019-12-23T09:15:15-05:00"
+date = "2020-12-13T09:15:15-05:00"
 type = "single"
 +++
 
@@ -24,30 +24,30 @@ Examples given below are the exact commands being executed in our continuous int
 The following script is used to scan all of WxT's custom modules:
 
 ```php
-./docker/bin/phpcs --standard=/var/www/html/core/phpcs.xml \
-            --extensions=php,module,inc,install,test,profile,theme \
-            --report=full \
-            --colors \
-            --ignore=/var/www/html/profiles/wxt/modules/custom/wxt_test \
-            --ignore=/var/www/html/modules/custom/wxt_library \
-            --ignore=*.css \
-            --ignore=*.md \
-            --ignore=/var/www/html/*/custom/*/*.info.yml \
-            /var/www/html/modules/custom \
-            /var/www/html/themes/custom \
-            /var/www/html/profiles/wxt/modules/custom
+phpcs --standard=/var/www/html/core/phpcs.xml \
+      --extensions=php,module,inc,install,test,profile,theme \
+      --report=full \
+      --colors \
+      --ignore=/var/www/html/profiles/wxt/modules/custom/wxt_test \
+      --ignore=/var/www/html/modules/custom/wxt_library \
+      --ignore=*.css \
+      --ignore=*.md \
+      --ignore=/var/www/html/*/custom/*/*.info.yml \
+      /var/www/html/modules/custom \
+      /var/www/html/themes/custom \
+      /var/www/html/profiles/wxt/modules/custom
 ```
 
 The following script is used to scan the WxT profile itself:
 
 ```
-./docker/bin/phpcs --standard=/var/www/html/core/phpcs.xml \
-            --extensions=php,module,inc,install,test,profile,theme \
-            --report=full \
-            --colors \
-            --ignore=*.md \
-            -l \
-            /var/www/html/profiles/wxt
+phpcs --standard=/var/www/html/core/phpcs.xml \
+      --extensions=php,module,inc,install,test,profile,theme \
+      --report=full \
+      --colors \
+      --ignore=*.md \
+      -l \
+      /var/www/html/profiles/wxt
 ```
 
 > Note: WxT Bootstrap and WxT Library are similarly scanned though exist outside of the distribution install to facilitate using them standalone.
